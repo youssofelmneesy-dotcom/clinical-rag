@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Local databases / vector stores
+*.db
+*.sqlite
+*.sqlite3
+chroma/
+chroma_db/
+vector_db/
+
+# Generated files
+outputs/
+tmp/
+.cache/
+
+# Node
+node_modules/
+dist/
+build/
