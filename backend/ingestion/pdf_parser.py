@@ -1,4 +1,4 @@
-import fitz
+import pymupdf
 from pathlib import Path
 
 
@@ -22,7 +22,7 @@ def extract_text_from_pdf(pdf_path: str) -> list[dict]:
 
     pages = []
 
-    with fitz.open(pdf_path) as document:
+    with pymupdf.open(pdf_path) as document:
         for page_number, page in enumerate(document, start=1):
             text = page.get_text("text").strip()
 
