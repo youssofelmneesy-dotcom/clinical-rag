@@ -30,6 +30,14 @@ def _expand_query(question: str) -> str:
         additions.append("pulmonary rehabilitation exercise education")
     if "smoking" in normalized:
         additions.append("smoking cessation tobacco")
+    if "symptom" in normalized:
+        additions.append("dyspnea dyspnoea breathlessness cough sputum")
+    if "education" in normalized:
+        additions.append("education information self-management inhaler technique")
+    if "technique" in normalized:
+        additions.append("inhaler technique demonstration training")
+    if "after" in normalized and "exacerbation" in normalized:
+        additions.append("follow-up reviewed prevention further exacerbations")
     return f"{question} {' '.join(additions)}".strip()
 
 

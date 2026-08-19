@@ -34,14 +34,57 @@ def _load_threshold(config_path: Path) -> float:
 
 def _clinical_ambiguity_reason(question: str) -> str | None:
     normalized = question.lower()
-    patient_specific = any(term in normalized for term in ("my ", "this patient", "a patient", "specific patient", "for me"))
-    missing_data = any(term in normalized for term in ("without", "missing", "no symptom", "no assessment", "no spirometry"))
+    patient_specific = any(
+        term in normalized
+        for term in (
+            "my ",
+            "this patient",
+            "a patient",
+            "specific patient",
+            "specific copd patient",
+            "this copd exacerbation",
+            "for me",
+            "today",
+            "tonight",
+        )
+    )
+    missing_data = any(
+        term in normalized
+        for term in (
+            "without",
+            "missing",
+            "no symptom",
+            "no assessment",
+            "no spirometry",
+            "no clinical",
+            "no history",
+            "no severity",
+            "no measurement",
+            "no measurements",
+        )
+    )
     local_or_brand = any(term in normalized for term in ("brand", "local pharmacy", "dispense"))
     exact_prediction = any(term in normalized for term in ("precise", "guarantee", "life expectancy"))
+    definitive_overreach = any(
+        term in normalized
+        for term in (
+            "prove that",
+            "ruled out forever",
+            "cough alone",
+            "stop all",
+            "should i stop",
+            "medicine should i stop",
+            "exact home oxygen flow rate",
+            "exact probability",
+            "individualized exercise intensity",
+        )
+    )
     if local_or_brand:
         return "The question asks for local or product-specific advice not supported by retrieved guideline evidence."
     if patient_specific and missing_data:
         return "The question asks for individualized COPD advice but lacks required patient assessment details."
+    if definitive_overreach:
+        return "The question asks for an individualized or definitive conclusion that retrieved guideline evidence cannot support."
     if exact_prediction:
         return "The question asks for a precise individualized prediction that guideline retrieval cannot support."
     return None

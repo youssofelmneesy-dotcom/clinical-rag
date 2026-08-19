@@ -1,0 +1,125 @@
+{
+  "dense": {
+    "k_3": {
+      "precision_at_k": 0.6,
+      "recall_at_k": 0.8666666666666667,
+      "hit_rate_at_k": 0.8666666666666667,
+      "selected_threshold": {
+        "selected_threshold": 0.6,
+        "true_accepts": 26,
+        "false_accepts": 23,
+        "false_rejects": 0,
+        "true_rejects": 11,
+        "error_count": 23
+      }
+    },
+    "k_5": {
+      "precision_at_k": 0.5533333333333333,
+      "recall_at_k": 0.9333333333333333,
+      "hit_rate_at_k": 0.9333333333333333,
+      "selected_threshold": {
+        "selected_threshold": 0.6,
+        "true_accepts": 28,
+        "false_accepts": 21,
+        "false_rejects": 0,
+        "true_rejects": 11,
+        "error_count": 21
+      }
+    },
+    "k_10": {
+      "precision_at_k": 0.49666666666666665,
+      "recall_at_k": 0.9666666666666667,
+      "hit_rate_at_k": 0.9666666666666667,
+      "selected_threshold": {
+        "selected_threshold": 0.6,
+        "true_accepts": 29,
+        "false_accepts": 20,
+        "false_rejects": 0,
+        "true_rejects": 11,
+        "error_count": 20
+      }
+    }
+  },
+  "bm25": {
+    "k_3": {
+      "precision_at_k": 0.6666666666666666,
+      "recall_at_k": 0.9,
+      "hit_rate_at_k": 0.9,
+      "selected_threshold": {
+        "selected_threshold": 0.05,
+        "true_accepts": 27,
+        "false_accepts": 33,
+        "false_rejects": 0,
+        "true_rejects": 0,
+        "error_count": 33
+      }
+    },
+    "k_5": {
+      "precision_at_k": 0.62,
+      "recall_at_k": 0.9666666666666667,
+      "hit_rate_at_k": 0.9666666666666667,
+      "selected_threshold": {
+        "selected_threshold": 0.05,
+        "true_accepts": 29,
+        "false_accepts": 31,
+        "false_rejects": 0,
+        "true_rejects": 0,
+        "error_count": 31
+      }
+    },
+    "k_10": {
+      "precision_at_k": 0.5666666666666667,
+      "recall_at_k": 0.9666666666666667,
+      "hit_rate_at_k": 0.9666666666666667,
+      "selected_threshold": {
+        "selected_threshold": 0.05,
+        "true_accepts": 29,
+        "false_accepts": 31,
+        "false_rejects": 0,
+        "true_rejects": 0,
+        "error_count": 31
+      }
+    }
+  },
+  "hybrid": {
+    "k_3": {
+      "precision_at_k": 0.7222222222222222,
+      "recall_at_k": 0.9,
+      "hit_rate_at_k": 0.9,
+      "selected_threshold": {
+        "selected_threshold": 0.55,
+        "true_accepts": 27,
+        "false_accepts": 29,
+        "false_rejects": 0,
+        "true_rejects": 4,
+        "error_count": 29
+      }
+    },
+    "k_5": {
+      "precision_at_k": 0.7066666666666667,
+      "recall_at_k": 0.9666666666666667,
+      "hit_rate_at_k": 0.9666666666666667,
+      "selected_threshold": {
+        "selected_threshold": 0.5,
+        "true_accepts": 29,
+        "false_accepts": 29,
+        "false_rejects": 0,
+        "true_rejects": 2,
+        "error_count": 29
+      }
+    },
+    "k_10": {
+      "precision_at_k": 0.6666666666666666,
+      "recall_at_k": 1.0,
+      "hit_rate_at_k": 1.0,
+      "selected_threshold": {
+        "selected_threshold": 0.5,
+        "true_accepts": 30,
+        "false_accepts": 29,
+        "false_rejects": 0,
+        "true_rejects": 1,
+        "error_count": 29
+      }
+    }
+  }
+}

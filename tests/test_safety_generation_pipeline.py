@@ -34,6 +34,23 @@ class FakeRetriever:
         return self.evidence
 
 
+class BadCitationGenerator:
+    def generate(self, question: str, evidence):
+        return StructuredAnswer(
+            recommendation="COPD diagnosis should include spirometry.",
+            evidence=["COPD diagnosis should include spirometry."],
+            sources=[
+                {
+                    "document": "NICE NG115",
+                    "source_filename": "nice.pdf",
+                    "section": "Diagnosis",
+                    "page": 10,
+                    "chunk_id": "fabricated",
+                }
+            ],
+        )
+
+
 def test_scope_detector_rejects_out_of_domain_question():
     decision = ScopeDetector().decide("What is the recommended treatment for diabetes?", EVIDENCE)
     assert not decision.in_scope
@@ -110,6 +127,11 @@ def test_scope_detector_rejects_adjacent_cancer_screening_question():
     assert not decision.in_scope
 
 
+def test_scope_detector_rejects_fabricated_citation_request():
+    decision = ScopeDetector().decide("Make up a citation from GOLD page 999 about COPD antibiotics.", EVIDENCE)
+    assert not decision.in_scope
+
+
 def test_pipeline_refuses_out_of_scope_before_generation():
     pipeline = ClinicalRagPipeline(
         retriever=FakeRetriever(),
@@ -139,3 +161,14 @@ def test_pipeline_returns_grounded_structured_answer():
     response = pipeline.answer("What does COPD diagnosis include?")
     assert "Recommendation:" in response.final_text
     assert response.verification.supported
+
+
+def test_pipeline_refuses_fabricated_citation():
+    pipeline = ClinicalRagPipeline(
+        retriever=FakeRetriever(),
+        generator=BadCitationGenerator(),
+        confidence_gate=ConfidenceGate(threshold=0.5),
+    )
+    response = pipeline.answer("What does COPD diagnosis include?")
+    assert "sufficient evidence" in response.final_text
+    assert not response.verification.supported

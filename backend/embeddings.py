@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import math
+import os
 from typing import Protocol
 
 from backend.config import EmbeddingConfig
@@ -21,7 +22,7 @@ class EmbeddingService(Protocol):
 
 class SentenceTransformerEmbeddingService:
     def __init__(self, config: EmbeddingConfig | None = None) -> None:
-        self.config = config or EmbeddingConfig()
+        self.config = config or EmbeddingConfig(model_name=os.getenv("EMBEDDING_MODEL", os.getenv("QUERY_MODEL", EmbeddingConfig().model_name)))
         try:
             from sentence_transformers import SentenceTransformer
         except ImportError as exc:

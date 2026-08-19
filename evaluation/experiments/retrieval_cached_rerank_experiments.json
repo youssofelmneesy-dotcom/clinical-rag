@@ -1,0 +1,1804 @@
+{
+  "results": [
+    {
+      "name": "current_fuse",
+      "candidate_k": 10,
+      "dense_weight": 0.1,
+      "precision_at_5": 0.68,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 10,
+      "dense_weight": 0.2,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 10,
+      "dense_weight": 0.3,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 10,
+      "dense_weight": 0.35,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 10,
+      "dense_weight": 0.4,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 10,
+      "dense_weight": 0.45,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 10,
+      "dense_weight": 0.5,
+      "precision_at_5": 0.68,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 10,
+      "dense_weight": 0.55,
+      "precision_at_5": 0.68,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 10,
+      "dense_weight": 0.65,
+      "precision_at_5": 0.68,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.1,
+      "precision_at_5": 0.72,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.2,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.3,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.35,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.4,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.45,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.5,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.55,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.65,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.1,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.2,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.3,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.35,
+      "precision_at_5": 0.74,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.4,
+      "precision_at_5": 0.7333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.45,
+      "precision_at_5": 0.7333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.5,
+      "precision_at_5": 0.7333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.55,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.65,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 25,
+      "dense_weight": 0.1,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 25,
+      "dense_weight": 0.2,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 25,
+      "dense_weight": 0.3,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 25,
+      "dense_weight": 0.35,
+      "precision_at_5": 0.7333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 25,
+      "dense_weight": 0.4,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 25,
+      "dense_weight": 0.45,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 25,
+      "dense_weight": 0.5,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 25,
+      "dense_weight": 0.55,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 25,
+      "dense_weight": 0.65,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 30,
+      "dense_weight": 0.1,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 30,
+      "dense_weight": 0.2,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 30,
+      "dense_weight": 0.3,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 30,
+      "dense_weight": 0.35,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 30,
+      "dense_weight": 0.4,
+      "precision_at_5": 0.7,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 30,
+      "dense_weight": 0.45,
+      "precision_at_5": 0.7,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 30,
+      "dense_weight": 0.5,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 30,
+      "dense_weight": 0.55,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 30,
+      "dense_weight": 0.65,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 40,
+      "dense_weight": 0.1,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 40,
+      "dense_weight": 0.2,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 40,
+      "dense_weight": 0.3,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 40,
+      "dense_weight": 0.35,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 40,
+      "dense_weight": 0.4,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 40,
+      "dense_weight": 0.45,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 40,
+      "dense_weight": 0.5,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 40,
+      "dense_weight": 0.55,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 40,
+      "dense_weight": 0.65,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 50,
+      "dense_weight": 0.1,
+      "precision_at_5": 0.7000000000000001,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 50,
+      "dense_weight": 0.2,
+      "precision_at_5": 0.7000000000000001,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 50,
+      "dense_weight": 0.3,
+      "precision_at_5": 0.7000000000000001,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 50,
+      "dense_weight": 0.35,
+      "precision_at_5": 0.7000000000000001,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 50,
+      "dense_weight": 0.4,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 50,
+      "dense_weight": 0.45,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 50,
+      "dense_weight": 0.5,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 50,
+      "dense_weight": 0.55,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 50,
+      "dense_weight": 0.65,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.2,
+      "term_boost": 0.05,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.2,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.2,
+      "term_boost": 0.15,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.2,
+      "term_boost": 0.2,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.3,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7000000000000001,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.3,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.3,
+      "term_boost": 0.15,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.3,
+      "term_boost": 0.2,
+      "precision_at_5": 0.6866666666666666,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.4,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.4,
+      "term_boost": 0.1,
+      "precision_at_5": 0.72,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.4,
+      "term_boost": 0.15,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.4,
+      "term_boost": 0.2,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.5,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.5,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.5,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.5,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.6,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.6,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.6,
+      "term_boost": 0.15,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.6,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.2,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.2,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.2,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.2,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.3,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.3,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.3,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.3,
+      "term_boost": 0.2,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.4,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.4,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.4,
+      "term_boost": 0.15,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.4,
+      "term_boost": 0.2,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.5,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.5,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7466666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.5,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.5,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.6,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.6,
+      "term_boost": 0.1,
+      "precision_at_5": 0.74,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.6,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.6,
+      "term_boost": 0.2,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.2,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.2,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.2,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.2,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.3,
+      "term_boost": 0.05,
+      "precision_at_5": 0.72,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.3,
+      "term_boost": 0.1,
+      "precision_at_5": 0.72,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.3,
+      "term_boost": 0.15,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.3,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.4,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.4,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.4,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.4,
+      "term_boost": 0.2,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.5,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.5,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7466666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.5,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.5,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.6,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.6,
+      "term_boost": 0.1,
+      "precision_at_5": 0.74,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.6,
+      "term_boost": 0.15,
+      "precision_at_5": 0.74,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.6,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.2,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.2,
+      "term_boost": 0.1,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.2,
+      "term_boost": 0.15,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.2,
+      "term_boost": 0.2,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.3,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.3,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.3,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.3,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.4,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.4,
+      "term_boost": 0.1,
+      "precision_at_5": 0.72,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.4,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.4,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.5,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.5,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.5,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.5,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.6,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.6,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.6,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.6,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.2,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.2,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.2,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7000000000000001,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.2,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.3,
+      "term_boost": 0.05,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.3,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.3,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.3,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.4,
+      "term_boost": 0.05,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.4,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.4,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.4,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.5,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.5,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.5,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.5,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.6,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.6,
+      "term_boost": 0.1,
+      "precision_at_5": 0.72,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.6,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7066666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 40,
+      "dense_weight": 0.6,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.2,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.2,
+      "term_boost": 0.1,
+      "precision_at_5": 0.72,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.2,
+      "term_boost": 0.15,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.2,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.3,
+      "term_boost": 0.05,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.3,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.3,
+      "term_boost": 0.15,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.3,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.4,
+      "term_boost": 0.05,
+      "precision_at_5": 0.6933333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.4,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.4,
+      "term_boost": 0.15,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.4,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.5,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7133333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.5,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.5,
+      "term_boost": 0.15,
+      "precision_at_5": 0.72,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.5,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.6,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.6,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.6,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.6,
+      "term_boost": 0.2,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    }
+  ],
+  "best": [
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.5,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7466666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.5,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7466666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.6,
+      "term_boost": 0.1,
+      "precision_at_5": 0.74,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.6,
+      "term_boost": 0.1,
+      "precision_at_5": 0.74,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.35,
+      "precision_at_5": 0.74,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.6,
+      "term_boost": 0.15,
+      "precision_at_5": 0.74,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.35,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.5,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.6,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.5,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 30,
+      "dense_weight": 0.6,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 50,
+      "dense_weight": 0.5,
+      "term_boost": 0.1,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 25,
+      "dense_weight": 0.5,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 25,
+      "dense_weight": 0.65,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 25,
+      "dense_weight": 0.5,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7333333333333334,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.4,
+      "precision_at_5": 0.7333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.45,
+      "precision_at_5": 0.7333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 20,
+      "dense_weight": 0.5,
+      "precision_at_5": 0.7333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 25,
+      "dense_weight": 0.35,
+      "precision_at_5": 0.7333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.5,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 20,
+      "dense_weight": 0.6,
+      "term_boost": 0.15,
+      "precision_at_5": 0.7333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "hit_at_5": 0.9666666666666667
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.2,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.3,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "current_fuse",
+      "candidate_k": 15,
+      "dense_weight": 0.4,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    },
+    {
+      "name": "clinical_rerank_v1",
+      "candidate_k": 15,
+      "dense_weight": 0.5,
+      "term_boost": 0.05,
+      "precision_at_5": 0.7266666666666667,
+      "recall_at_5": 1.0,
+      "hit_at_5": 1.0
+    }
+  ]
+}

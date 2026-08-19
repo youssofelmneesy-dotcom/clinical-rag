@@ -1,0 +1,78 @@
+{
+  "documents": [
+    {
+      "document_id": "gold-2026",
+      "document_name": "GOLD 2026 Global Strategy Report",
+      "source_filename": "GOLD-REPORT-2026-v1.3-8Dec2025_WMV2.pdf",
+      "sha256": "fa12e8e2dbd2090ea84d1a05ba48ab6d967fb1ce9a54d987e54249475714ddac",
+      "page_count": 248,
+      "empty_pages": [],
+      "sampled_pages": [
+        {
+          "page": 1,
+          "char_count": 323,
+          "line_count": 10,
+          "preview": "2026\nREPORT\nGlobal Strategy for the Diagnosis, Management, and \nPrevention of Chronic Obstructive Pulmonary Disease\nGlobal Initiative for \nChronic Obstructive \nLung Disease\nGlobal Strategy for the Diagnosis, Management, and \nPrevention of Chronic Obstructive Pulmonary Disease\nCOPYRIGHT MATERIAL - DO NOT COPY OR DISTRIBUTE"
+        },
+        {
+          "page": 5,
+          "char_count": 3427,
+          "line_count": 60,
+          "preview": "Be sure to read and understand the paragraph entitled Important Purpose & Liability Disclaimer                                       iv \n \nGOLD 2026 REPORT HIGHLIGHTS \nThe GOLD report is revised annually and has been used worldwide by healthcare professionals as a tool to implement \neffective management programs based on local healthcare systems. In the 2026 major revision of the GOLD report several \nimportant changes have been made as follows:  \ni. \nIn Chapter 1 the section on the Burden of COP"
+        },
+        {
+          "page": 125,
+          "char_count": 4286,
+          "line_count": 44,
+          "preview": "Be sure to read and understand the paragraph entitled Important Purpose & Liability Disclaimer                                   114 \n \nIt is important to provide patients who have COPD with optimal evidence-based management for their respiratory \ndisease. Any encounter between a healthcare practitioner and an individual with COPD offers an opportunity to \nmanage not only their lung disease, but other prevalent morbidities.(471,1129) To maximize this opportunity, the Institute \nfor Healthcare Im"
+        },
+        {
+          "page": 248,
+          "char_count": 162,
+          "line_count": 3,
+          "preview": "©2025, 2026 Global Initiative for Chronic Obstructive Lung Disease, Inc.\nVisit the GOLD website at www.goldcopd.org\nCOPYRIGHT MATERIAL - DO NOT COPY OR DISTRIBUTE"
+        }
+      ],
+      "notes": [
+        "Repeated GOLD copyright/footer text appears in extracted text and is filtered during chunking."
+      ]
+    },
+    {
+      "document_id": "nice-ng115",
+      "document_name": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+      "source_filename": "chronic-obstructive-pulmonary-disease-in-over-16s-diagnosis-and-management-pdf-66141600098245.pdf",
+      "sha256": "3613768521fee27f5f87a1de983d0128379e2c80c2a16d591f52f67a428f96bc",
+      "page_count": 76,
+      "empty_pages": [],
+      "sampled_pages": [
+        {
+          "page": 1,
+          "char_count": 311,
+          "line_count": 10,
+          "preview": "Chronic obstructive \npulmonary disease in over \n16s: diagnosis and \nmanagement \nNICE guideline \nPublished: 5 December 2018 \nLast updated: 26 July 2019 \nwww.nice.org.uk/guidance/ng115 \n© NICE 2026. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and-\nconditions#notice-of-rights)."
+        },
+        {
+          "page": 5,
+          "char_count": 1363,
+          "line_count": 29,
+          "preview": "Recommendations \nPeople have the right to be involved in discussions and make informed decisions \nabout their care, as described in NICE's information on making decisions about your \ncare. \nMaking decisions using NICE guidelines explains how we use words to show the \nstrength (or certainty) of our recommendations, and has information about \nprescribing medicines (including off-label use), professional guidelines, standards \nand laws (including on consent and mental capacity), and safeguarding. \n"
+        },
+        {
+          "page": 39,
+          "char_count": 1564,
+          "line_count": 32,
+          "preview": "• opportunities for discussion with a healthcare professional who has \nexperience in caring for people with COPD. [2018] \n1.2.122 Ensure the information provided is: \n• available on an ongoing basis \n• relevant to the stage of the person's condition \n• tailored to the person's needs. [2018] \n1.2.123 \nAt minimum, the information should cover: \n• an explanation of COPD and its symptoms \n• advice on quitting smoking (if relevant) and how this will help with the \nperson's COPD \n• advice on avoiding "
+        },
+        {
+          "page": 76,
+          "char_count": 541,
+          "line_count": 10,
+          "preview": "October 2022: We added text to indicate that pulse oximetry may be less reliable in \npeople with dark skin. We also added a link to the NHS patient safety alerton the risk of \nharm from inappropriate placement of pulse oximeter probes. See recommendations \n1.2.57, 1.3.1, 1.3.2 and 1.3.28. \nISBN: 978-1-4731-3468-3 \nChronic obstructive pulmonary disease in over 16s: diagnosis and management (NG115)\n© NICE 2026. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and-\nco"
+        }
+      ],
+      "notes": [
+        "NICE rights/footer text appears in extracted text and is filtered as retrieval noise where possible."
+      ]
+    }
+  ]
+}

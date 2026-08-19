@@ -15,6 +15,15 @@ COPD_TERMS = {
     "fvc",
     "exacerbation",
     "bronchodilator",
+    "corticosteroid",
+    "corticosteroids",
+    "eosinophil",
+    "eosinophils",
+    "ics",
+    "inhaled corticosteroid",
+    "inhaled corticosteroids",
+    "laba",
+    "lama",
     "pulmonary rehabilitation",
     "oxygen therapy",
     "smoking cessation",
@@ -66,10 +75,20 @@ COPD_CONTEXT_TERMS = {
     "follow up",
 }
 
+ADVERSARIAL_TERMS = {
+    "ignore the evidence",
+    "make up",
+    "fabricate",
+    "invent a citation",
+    "fake citation",
+    "use your medical knowledge instead",
+}
+
 
 class ScopeDetector:
     def decide(self, question: str, evidence: list[EvidenceResult] | None = None) -> ScopeDecision:
         normalized = question.lower()
+        adversarial_hits = [term for term in ADVERSARIAL_TERMS if term in normalized]
         copd_hits = [term for term in COPD_TERMS if term in normalized]
         context_hits = [term for term in COPD_CONTEXT_TERMS if term in normalized]
         ood_hits = [term for term in OUT_OF_SCOPE_TERMS if term in normalized]
@@ -81,7 +100,15 @@ class ScopeDetector:
             if item.similarity > 0.2 and _has_copd_signal(item.text)
         }
 
-        if unsafe_adjacent or (ood_hits and not copd_hits):
+        if adversarial_hits:
+            return ScopeDecision(False, "Question asks the system to ignore evidence or fabricate unsupported content.", {
+                "adversarial_terms": adversarial_hits,
+                "copd_terms": copd_hits,
+                "context_terms": context_hits,
+                "out_of_scope_terms": ood_hits,
+                "best_similarity": best_similarity,
+            })
+        if unsafe_adjacent or _unsafe_mixed_scope(normalized) or (ood_hits and not copd_hits):
             return ScopeDecision(False, "Question is outside the supported COPD clinical scope.", {
                 "copd_terms": copd_hits,
                 "context_terms": context_hits,
@@ -106,4 +133,19 @@ class ScopeDetector:
 
 def _has_copd_signal(text: str) -> bool:
     normalized = text.lower()
-    return bool(re.search(r"\b(copd|chronic obstructive|spirometry|fev1|exacerbation)\b", normalized))
+    return bool(re.search(r"\b(copd|chronic obstructive|spirometry|fev1|exacerbation|eosinophil|corticosteroid|ics)\b", normalized))
+
+
+def _unsafe_mixed_scope(normalized: str) -> bool:
+    if "copd" not in normalized and "chronic obstructive" not in normalized:
+        return False
+    adjacent_personal_requests = (
+        "insulin adjustment",
+        "diabetes",
+        "heart attack",
+        "chest pain",
+        "stroke",
+        "kidney failure",
+        "pregnancy",
+    )
+    return any(term in normalized for term in adjacent_personal_requests)

@@ -21,6 +21,10 @@ class SourceDocument:
     document_name: str
     filename: str
     source_type: str
+    publisher: str | None = None
+    version: str | None = None
+    source_url: str | None = None
+    legal_notes: str | None = None
     publication_date: str | None = None
     update_date: str | None = None
     jurisdiction: str | None = None
@@ -36,6 +40,10 @@ VALID_SOURCE_DOCUMENTS: tuple[SourceDocument, ...] = (
         document_name="GOLD 2026 Global Strategy Report",
         filename="GOLD-REPORT-2026-v1.3-8Dec2025_WMV2.pdf",
         source_type="clinical_guideline",
+        publisher="Global Initiative for Chronic Obstructive Lung Disease",
+        version="2026 v1.3",
+        source_url="https://goldcopd.org/2026-gold-report/",
+        legal_notes="Included as an official COPD strategy report for local evidence-grounded retrieval.",
         publication_date="2025-12-08",
         jurisdiction="global",
     ),
@@ -44,6 +52,10 @@ VALID_SOURCE_DOCUMENTS: tuple[SourceDocument, ...] = (
         document_name="NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
         filename="chronic-obstructive-pulmonary-disease-in-over-16s-diagnosis-and-management-pdf-66141600098245.pdf",
         source_type="clinical_guideline",
+        publisher="National Institute for Health and Care Excellence",
+        version="NG115",
+        source_url="https://www.nice.org.uk/guidance/ng115",
+        legal_notes="Included as an official NICE COPD guideline for local evidence-grounded retrieval.",
         jurisdiction="United Kingdom",
     ),
 )
@@ -66,4 +78,3 @@ class RetrievalConfig:
 @dataclass(frozen=True)
 class EmbeddingConfig:
     model_name: str = "sentence-transformers/all-MiniLM-L6-v2"
-

@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+================================================================================
+EXPERIMENT 1: Dense weight sweep (candidate_k=20, final_k=5)
+================================================================================
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5236.21it/s]
+Dense=0.30 Lexical=0.70: P@5=0.727 R@5=0.967 Hit@5=0.967 Latency=15754.0ms
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3372.18it/s]
+Dense=0.35 Lexical=0.65: P@5=0.740 R@5=0.967 Hit@5=0.967 Latency=5835.2ms
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2481.99it/s]
+Dense=0.40 Lexical=0.60: P@5=0.733 R@5=0.967 Hit@5=0.967 Latency=13686.9ms
+
+================================================================================
+EXPERIMENT 2: Candidate K sweep (dense=0.35, final_k=5)
+================================================================================
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4775.37it/s]
+/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/multiprocessing/resource_tracker.py:475: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/loky-11118-pvxj1qg7'}
+  warnings.warn(

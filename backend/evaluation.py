@@ -79,6 +79,10 @@ def evaluate_retrieval(
     }
 
 
+def evaluate_multiple_k(records: list[EvaluationRecord], retriever: Retriever, values: tuple[int, ...] = (3, 5, 10)) -> dict[str, Any]:
+    return {f"k_{k}": evaluate_retrieval(records, retriever, k=k) for k in values}
+
+
 def write_evaluation_report(report: dict[str, Any], report_path: Path = EVALUATION_REPORT_PATH) -> None:
     report_path.parent.mkdir(parents=True, exist_ok=True)
     with report_path.open("w", encoding="utf-8") as handle:

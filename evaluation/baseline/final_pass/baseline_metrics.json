@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-08-19T00:00:00Z",
+  "phase": "baseline",
+  "configuration": {
+    "dense_weight": 0.35,
+    "lexical_weight": 0.65,
+    "candidate_k": 20,
+    "final_k": 5,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "generation_mode": "extractive-offline",
+    "safety_mode": "deterministic"
+  },
+  "knowledge_base": {
+    "chunk_count": 525,
+    "chunks_by_document": {
+      "gold-2026": 408,
+      "nice-ng115": 117
+    },
+    "duplicate_chunk_ids": 0,
+    "empty_chunks": 0,
+    "invalid_chunks": 0
+  },
+  "retrieval_metrics": {
+    "total_questions": 60,
+    "precision_at_3": null,
+    "precision_at_5": 0.740,
+    "precision_at_10": null,
+    "recall_at_3": null,
+    "recall_at_5": 0.967,
+    "recall_at_10": null,
+    "hit_rate_at_5": 0.967,
+    "mrr": null,
+    "ndcg": null
+  },
+  "safety_metrics": {
+    "refusal_accuracy": 1.000,
+    "citation_traceability": 1.000,
+    "claim_verification": 0.983,
+    "false_acceptance_rate": 0.0,
+    "false_refusal_rate": 0.0
+  },
+  "performance_metrics": {
+    "cold_start_ms": 28600,
+    "warm_p50_ms": 348,
+    "warm_p90_ms": null,
+    "warm_p95_ms": 843,
+    "warm_p99_ms": null
+  },
+  "tests": {
+    "total": 27,
+    "passed": 27,
+    "failed": 0
+  }
+}

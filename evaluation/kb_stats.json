@@ -1,0 +1,17 @@
+{
+  "chunk_count": 525,
+  "chunks_by_document": {
+    "gold-2026": 408,
+    "nice-ng115": 117
+  },
+  "source_filenames": [
+    "GOLD-REPORT-2026-v1.3-8Dec2025_WMV2.pdf",
+    "chronic-obstructive-pulmonary-disease-in-over-16s-diagnosis-and-management-pdf-66141600098245.pdf"
+  ],
+  "duplicate_chunk_ids": [],
+  "empty_chunk_count": 0,
+  "unknown_section_count": 1,
+  "whitelist_valid": true,
+  "efhs_chunk_count": 0,
+  "reference_like_chunk_count": 0
+}

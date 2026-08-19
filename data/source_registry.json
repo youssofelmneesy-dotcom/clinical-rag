@@ -1,0 +1,24 @@
+[
+  {
+    "document_id": "gold-2026",
+    "title": "GOLD 2026 Global Strategy Report",
+    "publisher": "Global Initiative for Chronic Obstructive Lung Disease",
+    "year_or_version": "2026 v1.3",
+    "filename": "GOLD-REPORT-2026-v1.3-8Dec2025_WMV2.pdf",
+    "source_url": "https://goldcopd.org/2026-gold-report/",
+    "jurisdiction": "global",
+    "included_in_knowledge_base": true,
+    "legal_notes": "Official COPD strategy report used for local evidence-grounded retrieval."
+  },
+  {
+    "document_id": "nice-ng115",
+    "title": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+    "publisher": "National Institute for Health and Care Excellence",
+    "year_or_version": "NG115",
+    "filename": "chronic-obstructive-pulmonary-disease-in-over-16s-diagnosis-and-management-pdf-66141600098245.pdf",
+    "source_url": "https://www.nice.org.uk/guidance/ng115",
+    "jurisdiction": "United Kingdom",
+    "included_in_knowledge_base": true,
+    "legal_notes": "Official NICE COPD guideline used for local evidence-grounded retrieval."
+  }
+]

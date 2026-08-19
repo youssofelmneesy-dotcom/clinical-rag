@@ -1,8 +1,8 @@
 {
   "selected_threshold": 0.5,
-  "true_accepts": 19,
-  "false_accepts": 12,
+  "true_accepts": 29,
+  "false_accepts": 29,
   "false_rejects": 0,
-  "true_rejects": 9,
-  "error_count": 12
+  "true_rejects": 2,
+  "error_count": 29
 }

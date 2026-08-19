@@ -1,0 +1,30 @@
+{
+  "supported_domain": "Chronic Obstructive Pulmonary Disease (COPD)",
+  "supported_categories": [
+    "COPD diagnosis",
+    "COPD symptoms and risk factors",
+    "spirometry and airflow obstruction",
+    "COPD assessment and severity",
+    "stable COPD management",
+    "COPD pharmacological management",
+    "COPD non-pharmacological management",
+    "COPD exacerbations",
+    "oxygen therapy when supported by GOLD/NICE evidence",
+    "pulmonary rehabilitation",
+    "smoking cessation",
+    "COPD prognosis when guideline evidence supports a general answer",
+    "COPD comorbidities",
+    "COPD prevention",
+    "COPD follow-up"
+  ],
+  "unsupported_categories": [
+    "unrelated diseases",
+    "patient-specific diagnosis without clinical details",
+    "patient-specific treatment selection without required assessment data",
+    "local formulary or brand-specific dispensing advice",
+    "topics absent from the approved GOLD/NICE corpus",
+    "adjacent cancer screening or cancer treatment questions"
+  ],
+  "approved_document_ids": ["gold-2026", "nice-ng115"],
+  "excluded_document_families": ["EFHS"]
+}
