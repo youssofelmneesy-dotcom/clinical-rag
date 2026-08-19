@@ -1,4 +1,4 @@
-from pdf_parser import extract_text_from_pdf
+from backend.ingestion.pdf_parser import extract_text_from_pdf
 
 
 PDF_PATH = "../../data/guidelines/chronic-obstructive-pulmonary-disease-in-over-16s-diagnosis-and-management-pdf-66141600098245.pdf"
@@ -19,5 +19,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 

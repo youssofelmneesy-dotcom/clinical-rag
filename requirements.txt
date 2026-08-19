@@ -1,1 +1,5 @@
-PyMuPDF
+PyMuPDF>=1.24.0
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+openai>=1.0.0
+pytest>=8.0.0

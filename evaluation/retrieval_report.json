@@ -1,0 +1,2896 @@
+{
+  "k": 5,
+  "record_count": 40,
+  "answerable_count": 20,
+  "precision_at_k": 0.55,
+  "recall_at_k": 0.95,
+  "hit_rate_at_k": 0.95,
+  "threshold_analysis": {
+    "candidates": [
+      {
+        "selected_threshold": 0.05,
+        "true_accepts": 19,
+        "false_accepts": 21,
+        "false_rejects": 0,
+        "true_rejects": 0,
+        "error_count": 21
+      },
+      {
+        "selected_threshold": 0.1,
+        "true_accepts": 19,
+        "false_accepts": 21,
+        "false_rejects": 0,
+        "true_rejects": 0,
+        "error_count": 21
+      },
+      {
+        "selected_threshold": 0.15,
+        "true_accepts": 19,
+        "false_accepts": 21,
+        "false_rejects": 0,
+        "true_rejects": 0,
+        "error_count": 21
+      },
+      {
+        "selected_threshold": 0.2,
+        "true_accepts": 19,
+        "false_accepts": 21,
+        "false_rejects": 0,
+        "true_rejects": 0,
+        "error_count": 21
+      },
+      {
+        "selected_threshold": 0.25,
+        "true_accepts": 19,
+        "false_accepts": 19,
+        "false_rejects": 0,
+        "true_rejects": 2,
+        "error_count": 19
+      },
+      {
+        "selected_threshold": 0.3,
+        "true_accepts": 19,
+        "false_accepts": 19,
+        "false_rejects": 0,
+        "true_rejects": 2,
+        "error_count": 19
+      },
+      {
+        "selected_threshold": 0.35,
+        "true_accepts": 19,
+        "false_accepts": 18,
+        "false_rejects": 0,
+        "true_rejects": 3,
+        "error_count": 18
+      },
+      {
+        "selected_threshold": 0.4,
+        "true_accepts": 19,
+        "false_accepts": 16,
+        "false_rejects": 0,
+        "true_rejects": 5,
+        "error_count": 16
+      },
+      {
+        "selected_threshold": 0.45,
+        "true_accepts": 19,
+        "false_accepts": 13,
+        "false_rejects": 0,
+        "true_rejects": 8,
+        "error_count": 13
+      },
+      {
+        "selected_threshold": 0.5,
+        "true_accepts": 19,
+        "false_accepts": 12,
+        "false_rejects": 0,
+        "true_rejects": 9,
+        "error_count": 12
+      },
+      {
+        "selected_threshold": 0.55,
+        "true_accepts": 19,
+        "false_accepts": 12,
+        "false_rejects": 0,
+        "true_rejects": 9,
+        "error_count": 12
+      },
+      {
+        "selected_threshold": 0.6,
+        "true_accepts": 18,
+        "false_accepts": 12,
+        "false_rejects": 1,
+        "true_rejects": 9,
+        "error_count": 13
+      }
+    ],
+    "selected": {
+      "selected_threshold": 0.5,
+      "true_accepts": 19,
+      "false_accepts": 12,
+      "false_rejects": 0,
+      "true_rejects": 9,
+      "error_count": 12
+    }
+  },
+  "rows": [
+    {
+      "question": "How is COPD diagnosis confirmed with spirometry?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "gold-2026",
+      "expected_terms": [
+        "post-bronchodilator",
+        "FEV1/FVC"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:c5e6266a13e7f6d4",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 38,
+          "section": "SPIROMETRY",
+          "distance": 0.11843746900558472,
+          "similarity": 0.8815625309944153,
+          "relevant": true,
+          "text_preview": "Figure 2.5A shows a normal spirometry tracing and Figure 2.5B shows a tracing obtained in a person with COPD.\n\nPatients with COPD typically show a decrease in both FEV1 (due to airflow obstruction) and (to a lesser degree) FVC (due to gas trapping).\n\nPre- or post-bronchodilator spirometry to confirm"
+        },
+        {
+          "chunk_id": "gold-2026:3b81ea8bef7cb0ef",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 41,
+          "section": "SPIROMETRY",
+          "distance": 0.1590619683265686,
+          "similarity": 0.8409380316734314,
+          "relevant": true,
+          "text_preview": "Assessment of the presence or absence of airflow obstruction based on a single measurement of the post- bronchodilator FEV1/FVC ratio should be confirmed by repeat spirometry on a separate occasion if the value is between 0.6 and 0.8, as in some cases the ratio may change as a result of biological v"
+        },
+        {
+          "chunk_id": "gold-2026:8e730e8af641c99f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 32,
+          "section": "DIAGNOSIS",
+          "distance": 0.15969854593276978,
+          "similarity": 0.8403014540672302,
+          "relevant": true,
+          "text_preview": "A diagnosis of COPD should be considered in any patient who has dyspnea, chronic cough or sputum production, and/or a history of exposure to risk factors for the disease (Figure 2.1) but forced spirometry that demonstrates the presence of a post-bronchodilator FEV1/FVC < 0.7 is mandatory to establis"
+        },
+        {
+          "chunk_id": "gold-2026:61281e4aeb1ad79f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 32,
+          "section": "KEY POINTS:",
+          "distance": 0.16781598329544067,
+          "similarity": 0.8321840167045593,
+          "relevant": true,
+          "text_preview": "• A diagnosis of COPD should be considered in any patient who has dyspnea, chronic cough or sputum production, a history of recurrent lower respiratory tract infections and/or a history of exposure to risk factors; spirometry with post-bronchodilator FEV1/FVC < 0.7 is mandatory to establish the diag"
+        },
+        {
+          "chunk_id": "gold-2026:c5406cb5dffccaa0",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 48,
+          "section": "INITIAL ASSESSMENT",
+          "distance": 0.17145395278930664,
+          "similarity": 0.8285460472106934,
+          "relevant": true,
+          "text_preview": "► Severity of airflow obstruction ► Nature and magnitude of current symptoms ► Previous history of moderate and severe exacerbations ► Blood eosinophil count ► Presence and type of other diseases (multimorbidity) Severity of airflow obstruction In the presence of FEV1/FVC ratio < 0.7 the assessment "
+        }
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.8815625309944153
+    },
+    {
+      "question": "What symptoms should raise suspicion for COPD?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "gold-2026",
+      "expected_terms": [
+        "dyspnea",
+        "cough",
+        "sputum"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:0c8c9744eabf0876",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 36,
+          "section": "MEDICAL HISTORY",
+          "distance": 0.34340763092041016,
+          "similarity": 0.6565923690795898,
+          "relevant": false,
+          "text_preview": "A detailed medical history of a new patient who is known, or suspected, to have COPD should include:\n\n► Patient’s exposure to risk factors, such as smoking and environmental exposures (household/outdoor).\n\n► Past medical history, including early life events (prematurity, low birthweight, maternal sm"
+        },
+        {
+          "chunk_id": "gold-2026:f3d1de3e0b3fdb4d",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 54,
+          "section": "INITIAL ASSESSMENT",
+          "distance": 0.3740919232368469,
+          "similarity": 0.6259080767631531,
+          "relevant": true,
+          "text_preview": "Observational studies(490,491) have shown that even one moderate or severe exacerbation prior to initiating maintenance pharmacological therapy increases the risk of subsequent events; this risk is further increased if there are more frequent or severe events.(467,492-494) Consequently, Group E has "
+        },
+        {
+          "chunk_id": "gold-2026:31638a4348f57c4a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "KEY POINTS:",
+          "distance": 0.385601282119751,
+          "similarity": 0.614398717880249,
+          "relevant": false,
+          "text_preview": "• Following an exacerbation, the management of COPD and its comorbidities should be reviewed and appropriate measures for exacerbation prevention should be implemented (see Chapter 3).\n\nDEFINITION"
+        },
+        {
+          "chunk_id": "nice-ng115:60f1f011f3b64d00",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 5,
+          "section": "Recommendations",
+          "distance": 0.3866938352584839,
+          "similarity": 0.6133061647415161,
+          "relevant": false,
+          "text_preview": "Recommendations\n\nPeople have the right to be involved in discussions and make informed decisions\n\nabout their care, as described in NICE's information on making decisions about your care.\n\nMaking decisions using NICE guidelines explains how we use words to show the\n\nstrength (or certainty) of our re"
+        },
+        {
+          "chunk_id": "gold-2026:06c755bc2c350e3e",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "DEFINITION",
+          "distance": 0.390852689743042,
+          "similarity": 0.609147310256958,
+          "relevant": true,
+          "text_preview": "An exacerbation of COPD is an acute event with symptoms worsening over a few days (up to 14 days) and characterized by increased dyspnea and/or cough and sputum that may be accompanied by tachypnea and/or tachycardia and is often associated with increased local and systemic inflammation caused by in"
+        }
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.6565923690795898
+    },
+    {
+      "question": "What are common COPD risk factors?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "gold-2026",
+      "expected_terms": [
+        "tobacco",
+        "smoke",
+        "exposures"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:0b96e839ac874c18",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 19,
+          "section": "BURDEN OF COPD",
+          "distance": 0.3237171769142151,
+          "similarity": 0.6762828230857849,
+          "relevant": false,
+          "text_preview": "The number of COPD cases globally is projected to increase over the coming decades, approaching nearly 600 million COPD patients by 2050 and the increase will be greater among women and in LMICs.(72) This is due to a combination of continued exposure to COPD risk factors and an increase in both the "
+        },
+        {
+          "chunk_id": "gold-2026:bdd4b7a2fd290808",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 18,
+          "section": "BURDEN OF COPD",
+          "distance": 0.3482915163040161,
+          "similarity": 0.6517084836959839,
+          "relevant": true,
+          "text_preview": "COPD is a leading cause of morbidity and mortality worldwide with an economic and social burden that is both substantial and increasing.(70-74) COPD prevalence, morbidity and mortality vary across countries,(70-73,75) and although it is often directly related to the prevalence of tobacco smoking, in"
+        },
+        {
+          "chunk_id": "gold-2026:d9c34fa39c0e53cd",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 15,
+          "section": "KEY POINTS:",
+          "distance": 0.35257238149642944,
+          "similarity": 0.6474276185035706,
+          "relevant": true,
+          "text_preview": "Definition COPD is a heterogeneous lung condition characterized by chronic respiratory symptoms (dyspnea, cough, sputum production and/or exacerbations) due to abnormalities of the airways (bronchitis, bronchiolitis) and/or alveoli (emphysema) that cause persistent, often progressive, airflow obstru"
+        },
+        {
+          "chunk_id": "gold-2026:0c8c9744eabf0876",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 36,
+          "section": "MEDICAL HISTORY",
+          "distance": 0.3594416379928589,
+          "similarity": 0.6405583620071411,
+          "relevant": true,
+          "text_preview": "A detailed medical history of a new patient who is known, or suspected, to have COPD should include:\n\n► Patient’s exposure to risk factors, such as smoking and environmental exposures (household/outdoor).\n\n► Past medical history, including early life events (prematurity, low birthweight, maternal sm"
+        },
+        {
+          "chunk_id": "gold-2026:2d9632928f4a0dfc",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 18,
+          "section": "KEY POINTS:",
+          "distance": 0.368278443813324,
+          "similarity": 0.631721556186676,
+          "relevant": true,
+          "text_preview": "Patients with COPD frequently harbor other comorbid diseases that also influence their clinical condition and prognosis and require specific treatment. These comorbid conditions can mimic and/or aggravate an acute exacerbation.\n\nNew opportunities COPD is a common, preventable, and treatable disease,"
+        }
+      ],
+      "precision_at_k": 0.8,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.6762828230857849
+    },
+    {
+      "question": "What does GOLD say about COPD assessment after diagnosis?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "gold-2026",
+      "expected_terms": [
+        "symptoms",
+        "exacerbations"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:91e77cc90b332505",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 32,
+          "section": "KEY POINTS:",
+          "distance": 0.18834084272384644,
+          "similarity": 0.8116591572761536,
+          "relevant": false,
+          "text_preview": "• Concomitant chronic diseases (multimorbidity) occur frequently in patients with COPD, including cardiovascular disease, skeletal muscle dysfunction, metabolic syndrome, osteoporosis, depression, anxiety, and lung cancer. These comorbidities should be actively sought, and treated appropriately when"
+        },
+        {
+          "chunk_id": "gold-2026:c5e6266a13e7f6d4",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 38,
+          "section": "SPIROMETRY",
+          "distance": 0.19039762020111084,
+          "similarity": 0.8096023797988892,
+          "relevant": true,
+          "text_preview": "Figure 2.5A shows a normal spirometry tracing and Figure 2.5B shows a tracing obtained in a person with COPD.\n\nPatients with COPD typically show a decrease in both FEV1 (due to airflow obstruction) and (to a lesser degree) FVC (due to gas trapping).\n\nPre- or post-bronchodilator spirometry to confirm"
+        },
+        {
+          "chunk_id": "gold-2026:8e730e8af641c99f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 32,
+          "section": "DIAGNOSIS",
+          "distance": 0.19546616077423096,
+          "similarity": 0.804533839225769,
+          "relevant": false,
+          "text_preview": "A diagnosis of COPD should be considered in any patient who has dyspnea, chronic cough or sputum production, and/or a history of exposure to risk factors for the disease (Figure 2.1) but forced spirometry that demonstrates the presence of a post-bronchodilator FEV1/FVC < 0.7 is mandatory to establis"
+        },
+        {
+          "chunk_id": "nice-ng115:4d20c027017dabc3",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 13,
+          "section": "For people with mild airflow obstruction, only diagnose COPD if they have one or",
+          "distance": 0.19764721393585205,
+          "similarity": 0.802352786064148,
+          "relevant": false,
+          "text_preview": "For people with mild airflow obstruction, only diagnose COPD if they have one or\n\nmore of the symptoms in the recommendation on symptoms. [2010] Table 4 Gradation of severity of airflow obstruction Post- broncho- dilator FEV1/ FVC FEV1 % predicted\n\nNICE guideline\n\nCG12 (2004) severity of airflow obs"
+        },
+        {
+          "chunk_id": "gold-2026:3b81ea8bef7cb0ef",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 41,
+          "section": "SPIROMETRY",
+          "distance": 0.2052357792854309,
+          "similarity": 0.7947642207145691,
+          "relevant": false,
+          "text_preview": "Assessment of the presence or absence of airflow obstruction based on a single measurement of the post- bronchodilator FEV1/FVC ratio should be confirmed by repeat spirometry on a separate occasion if the value is between 0.6 and 0.8, as in some cases the ratio may change as a result of biological v"
+        }
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.8116591572761536
+    },
+    {
+      "question": "How are COPD exacerbations defined?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "gold-2026",
+      "expected_terms": [
+        "worsening",
+        "symptoms"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:06c755bc2c350e3e",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "DEFINITION",
+          "distance": 0.12510234117507935,
+          "similarity": 0.8748976588249207,
+          "relevant": true,
+          "text_preview": "An exacerbation of COPD is an acute event with symptoms worsening over a few days (up to 14 days) and characterized by increased dyspnea and/or cough and sputum that may be accompanied by tachypnea and/or tachycardia and is often associated with increased local and systemic inflammation caused by in"
+        },
+        {
+          "chunk_id": "gold-2026:0dca38a6b59b8496",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "KEY POINTS:",
+          "distance": 0.1474665403366089,
+          "similarity": 0.8525334596633911,
+          "relevant": true,
+          "text_preview": "• Following an exacerbation, the management of COPD and its comorbidities should be reviewed and appropriate measures for exacerbation prevention should be implemented (see Chapter 3).\n\nDEFINITION\n\nAn exacerbation of COPD is an acute event with symptoms worsening over a few days (up to 14 days) and "
+        },
+        {
+          "chunk_id": "gold-2026:8d154bb77f0473c0",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 15,
+          "section": "KEY POINTS:",
+          "distance": 0.22982937097549438,
+          "similarity": 0.7701706290245056,
+          "relevant": true,
+          "text_preview": "• The main environmental exposures leading to COPD are tobacco smoking and the inhalation of toxic particles and gases from household and outdoor air pollution, but other environmental and host factors (including abnormal lung development and accelerated lung aging) can also contribute.\n\nDiagnostic "
+        },
+        {
+          "chunk_id": "gold-2026:23131592961de05c",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 106,
+          "section": "DEFINITION",
+          "distance": 0.23126286268234253,
+          "similarity": 0.7687371373176575,
+          "relevant": true,
+          "text_preview": "Around 50% of those admitted had a moderate episode and close to 10% a severe episode.(933-936) Data suggest that severity of exacerbations using the Rome grading scheme correlates with prognosis, including need for intensive care admission and mortality.(933-937) In settings where laboratory variab"
+        },
+        {
+          "chunk_id": "gold-2026:cccb35bce2c59bce",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 33,
+          "section": "CLINICAL PRESENTATION",
+          "distance": 0.23660653829574585,
+          "similarity": 0.7633934617042542,
+          "relevant": false,
+          "text_preview": "Symptoms Chronic dyspnea is the most characteristic symptom of COPD. Cough with sputum production is present in up to 30% of patients. These symptoms may vary from day-to-day(300) and may precede the development of airflow obstruction by many years. Individuals, particularly those with COPD risk fac"
+        }
+      ],
+      "precision_at_k": 0.8,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.8748976588249207
+    },
+    {
+      "question": "What non-pharmacological interventions are recommended for stable COPD?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "gold-2026",
+      "expected_terms": [
+        "smoking cessation",
+        "pulmonary rehabilitation"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "nice-ng115:7e685241e3cdff2d",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 61,
+          "section": "Most of the trials specifically excluded people with COPD and asthma, so there was no",
+          "distance": 0.26179200410842896,
+          "similarity": 0.738207995891571,
+          "relevant": false,
+          "text_preview": "Chronic obstructive pulmonary disease in over 16s: diagnosis and management (NG115) © NICE 2026. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- conditions#notice-of-rights).\n\nPage 61 of 76 direct evidence for this group. The committee recommended LABA+ICS based "
+        },
+        {
+          "chunk_id": "gold-2026:6bdfe9449e6edf63",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 75,
+          "section": "PHARMACOLOGICAL MAINTENANCE TREATMENT OF",
+          "distance": 0.2745755910873413,
+          "similarity": 0.7254244089126587,
+          "relevant": false,
+          "text_preview": "Algorithms for initial and follow-up pharmacological treatment Further information on the evidence that underpins these recommendations is given later in Appendix 3 “Overview of the evidence: Pharmacotherapy”.\n\nInitial pharmacological management A proposal for the INITIATION of pharmacological manag"
+        },
+        {
+          "chunk_id": "gold-2026:4da4daef79f5c251",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 92,
+          "section": "MORTALITY",
+          "distance": 0.2761281728744507,
+          "similarity": 0.7238718271255493,
+          "relevant": false,
+          "text_preview": "Evidence has emerged from two large randomized clinical trials, IMPACT(467) and ETHOS,(492) that fixed-dose inhaled triple combinations (LABA+LAMA+ICS) reduce all-cause mortality compared to dual inhaled LABD therapy. Together these results suggest a beneficial effect of fixed-dose triple inhaled th"
+        },
+        {
+          "chunk_id": "gold-2026:1af944abea75901b",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 92,
+          "section": "MORTALITY",
+          "distance": 0.28303539752960205,
+          "similarity": 0.716964602470398,
+          "relevant": false,
+          "text_preview": "Pharmacological therapy Previous studies such as TORCH(790) and SUMMIT(791) failed to provide evidence for the efficacy of a LABA+ICS combination compared to placebo in reducing mortality (primary outcome) in patients with COPD. These trials had no requirement for a history of previous exacerbations"
+        },
+        {
+          "chunk_id": "gold-2026:96486aae07d1770c",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 121,
+          "section": "PREVENTION OF FURTHER EXACERBATIONS",
+          "distance": 0.28650927543640137,
+          "similarity": 0.7134907245635986,
+          "relevant": true,
+          "text_preview": "After an acute exacerbation, appropriate measures for prevention of further exacerbations should be initiated (Figure 4.10). The use of a LABA+LAMA+ICS, smoking cessation, immunization against influenza, pneumonia, RSV and pulmonary rehabilitation have been shown to improve function and reduce subse"
+        }
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.738207995891571
+    },
+    {
+      "question": "When should pulmonary rehabilitation be considered in COPD?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": null,
+      "expected_terms": [
+        "pulmonary rehabilitation"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:77f27d3ff7580acf",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 85,
+          "section": "NON-PHARMACOLOGICAL TREATMENT OF COPD",
+          "distance": 0.19653606414794922,
+          "similarity": 0.8034639358520508,
+          "relevant": true,
+          "text_preview": "Rehabilitation Pulmonary rehabilitation Pulmonary rehabilitation is defined as “a comprehensive intervention based on thorough patient assessment followed by patient-tailored therapies that include, but are not limited to, exercise training, education, self-management intervention aiming at behavior"
+        },
+        {
+          "chunk_id": "nice-ng115:c904c12e3426399b",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 32,
+          "section": "Offer pulmonary rehabilitation to all people who view themselves as functionally",
+          "distance": 0.23375684022903442,
+          "similarity": 0.7662431597709656,
+          "relevant": true,
+          "text_preview": "Offer pulmonary rehabilitation to all people who view themselves as functionally\n\ndisabled by COPD (usually Medical Research Council [MRC] grade 3 and above).\n\nPulmonary rehabilitation is not suitable for people who are unable to walk, who\n\nhave unstable angina or who have had a recent myocardial in"
+        },
+        {
+          "chunk_id": "gold-2026:dc90133ef6434902",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 172,
+          "section": "PHARMACOLOGICAL THERAPY",
+          "distance": 0.2547045350074768,
+          "similarity": 0.7452954649925232,
+          "relevant": true,
+          "text_preview": "There are data from large RCTs regarding the effectiveness of pulmonary rehabilitation after hospitalization for an acute exacerbation. A systematic review that included 13 RCTs reported reduced mortality, and number of readmissions among patients who had pulmonary rehabilitation initiated during ho"
+        },
+        {
+          "chunk_id": "gold-2026:4f8ae8ab01134a9a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 148,
+          "section": "VERSUS VIRTUAL",
+          "distance": 0.25936561822891235,
+          "similarity": 0.7406343817710876,
+          "relevant": true,
+          "text_preview": "Pulmonary rehabilitation has the highest quality studies in the COPD-telehealth field with well-defined and reported exercise training programs, and comparing telerehabilitation with usual care and/or center-based rehabilitation, which was established as the gold-standard in a 2021 Cochrane review.("
+        },
+        {
+          "chunk_id": "gold-2026:5e6f029faa1ee488",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 84,
+          "section": "NON-PHARMACOLOGICAL TREATMENT OF COPD",
+          "distance": 0.26256513595581055,
+          "similarity": 0.7374348640441895,
+          "relevant": true,
+          "text_preview": "Algorithms for the initiation and follow-up of non-pharmacological treatment Some relevant non-pharmacological measures based on the patient’s GOLD A, B, or E group AT DIAGNOSIS are summarized in Figure 3.15.\n\nRecommendations for FOLLOW-UP non-pharmacological treatments are based on a patient’s trea"
+        }
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.8034639358520508
+    },
+    {
+      "question": "What is recommended about smoking cessation for COPD patients?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": null,
+      "expected_terms": [
+        "smoking",
+        "stop"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:4b10f4a9b8022775",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 63,
+          "section": "INTRODUCTION",
+          "distance": 0.16723352670669556,
+          "similarity": 0.8327664732933044,
+          "relevant": true,
+          "text_preview": "Late diagnosis of COPD contributes to a high symptom burden due to the severity of lung pathology with structural damage at the time of diagnosis. Targeting disease activity at earlier stages of the natural history of COPD has the potential to minimize disease progression and associated structural d"
+        },
+        {
+          "chunk_id": "gold-2026:49f90d87bdc59faf",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 64,
+          "section": "RISK REDUCTION, LIFESTYLE, AND PATIENT EDUCATION",
+          "distance": 0.18471556901931763,
+          "similarity": 0.8152844309806824,
+          "relevant": true,
+          "text_preview": "Smoking cessation Smoking cessation is a key intervention for all patients with COPD who continue to smoke. Healthcare providers are pivotal in delivering smoking cessation messages and interventions and should encourage patients to quit at every available opportunity (Figure 3.4).\n\nA significant pr"
+        },
+        {
+          "chunk_id": "gold-2026:6b794773bfa9ca75",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 64,
+          "section": "RISK REDUCTION, LIFESTYLE, AND PATIENT EDUCATION",
+          "distance": 0.20187729597091675,
+          "similarity": 0.7981227040290833,
+          "relevant": true,
+          "text_preview": "A significant proportion of people with COPD continue to smoke despite knowing they have the disease (approximately 40% of those with COPD are current smokers), and continued smoking has a negative impact on prognosis and progression of the disease.(558) Smoking cessation has the greatest capacity t"
+        },
+        {
+          "chunk_id": "gold-2026:b9afe922a74a0c8c",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 90,
+          "section": "MORTALITY",
+          "distance": 0.2400449514389038,
+          "similarity": 0.7599550485610962,
+          "relevant": true,
+          "text_preview": "Demonstrating benefits of therapeutic modalities on mortality in RCTs has been difficult, requiring large populations and/or long follow-up duration and/or highly selected populations with a high but preventable risk of death during follow-up. In addition, the low number of events makes the analysis"
+        },
+        {
+          "chunk_id": "gold-2026:99cd9889c71bdaf9",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 91,
+          "section": "MORTALITY",
+          "distance": 0.25220787525177,
+          "similarity": 0.74779212474823,
+          "relevant": true,
+          "text_preview": "Non-pharmacological therapy Smoking cessation. From the Lung Health Study, an RCT that included patients with asymptomatic or mildly symptomatic COPD treated with a 10-week smoking cessation intervention program and followed up to 14.5 years, the overall mortality rate was reduced in the smoking ces"
+        }
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.8327664732933044
+    },
+    {
+      "question": "What is the role of oxygen therapy in COPD management?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": null,
+      "expected_terms": [
+        "oxygen"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "nice-ng115:50a3df3ea5b8b79e",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 28,
+          "section": "Oxygen concentrators should be used to provide the fixed supply at home for",
+          "distance": 0.24538975954055786,
+          "similarity": 0.7546102404594421,
+          "relevant": true,
+          "text_preview": "long-term oxygen therapy. [2004] 1.2.67\n\nPeople who are having long-term oxygen therapy should be reviewed at least\n\nonce per year by healthcare professionals familiar with long-term oxygen therapy.\n\nThis review should include pulse oximetry. [2004] For a short explanation of why the committee made "
+        },
+        {
+          "chunk_id": "gold-2026:f35e73ef046e10ef",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 93,
+          "section": "MORTALITY",
+          "distance": 0.2656586766242981,
+          "similarity": 0.7343413233757019,
+          "relevant": true,
+          "text_preview": "Therapy relevant to all people with COPD Even when receiving optimal medical therapy many people with COPD continue to experience distressing breathlessness, impaired exercise capacity, fatigue, and suffer panic, anxiety and depression.(796) Some of these symptoms can be improved by wider use of pal"
+        },
+        {
+          "chunk_id": "nice-ng115:12d896bbe289f791",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 65,
+          "section": "It is likely that these recommendations will increase the number of people taking",
+          "distance": 0.2684757113456726,
+          "similarity": 0.7315242886543274,
+          "relevant": true,
+          "text_preview": "prophylactic antibiotics. This is unlikely to have a significant resource impact, given the relatively low cost of antibiotics. By reducing exacerbation frequency it is likely to reduce the amount of oral corticosteroids taken by people with COPD.\n\nChronic obstructive pulmonary disease in over 16s: "
+        },
+        {
+          "chunk_id": "gold-2026:725de8eb63fd4e6c",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 87,
+          "section": "NON-PHARMACOLOGICAL TREATMENT OF COPD",
+          "distance": 0.2698483467102051,
+          "similarity": 0.7301516532897949,
+          "relevant": true,
+          "text_preview": "LTOT has been shown to increase survival in patients with severe resting hypoxemia.(750) Ekström and colleagues(751) reported that among patients with severe hypoxemia agreeing to participate in a study, LTOT used for 24 hours per day did not result in a lower risk of hospitalization or death within"
+        },
+        {
+          "chunk_id": "gold-2026:30862ee7c20881c3",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 61,
+          "section": "KEY POINTS:",
+          "distance": 0.27159470319747925,
+          "similarity": 0.7284052968025208,
+          "relevant": false,
+          "text_preview": "• LTOT should not be prescribed routinely for patients with stable COPD and resting or exercise-induced moderate desaturation, but it may improve survival in patients with severe resting chronic hypoxemia (PaO2 ≤ 55 mmHg or < 60 mmHg if there is cor pulmonale or secondary polycythemia).\n\n• Long-term"
+        }
+      ],
+      "precision_at_k": 0.8,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.7546102404594421
+    },
+    {
+      "question": "How should inhaled therapy be approached for stable COPD?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "gold-2026",
+      "expected_terms": [
+        "bronchodilator",
+        "LABA",
+        "LAMA"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "nice-ng115:7e685241e3cdff2d",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 61,
+          "section": "Most of the trials specifically excluded people with COPD and asthma, so there was no",
+          "distance": 0.22934502363204956,
+          "similarity": 0.7706549763679504,
+          "relevant": false,
+          "text_preview": "Chronic obstructive pulmonary disease in over 16s: diagnosis and management (NG115) © NICE 2026. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- conditions#notice-of-rights).\n\nPage 61 of 76 direct evidence for this group. The committee recommended LABA+ICS based "
+        },
+        {
+          "chunk_id": "gold-2026:4da4daef79f5c251",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 92,
+          "section": "MORTALITY",
+          "distance": 0.23051601648330688,
+          "similarity": 0.7694839835166931,
+          "relevant": false,
+          "text_preview": "Evidence has emerged from two large randomized clinical trials, IMPACT(467) and ETHOS,(492) that fixed-dose inhaled triple combinations (LABA+LAMA+ICS) reduce all-cause mortality compared to dual inhaled LABD therapy. Together these results suggest a beneficial effect of fixed-dose triple inhaled th"
+        },
+        {
+          "chunk_id": "nice-ng115:e41b8fbd0e5e94fa",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 16,
+          "section": "Be aware of, and be prepared to discuss with the person, the risk of side effects",
+          "distance": 0.2471446394920349,
+          "similarity": 0.7528553605079651,
+          "relevant": false,
+          "text_preview": "Be aware of, and be prepared to discuss with the person, the risk of side effects\n\n(including pneumonia) in people who take inhaled corticosteroids for COPD.\n\nFollow the MHRA safety advice on the risk of psychological and behavioural side\n\neffects associated with inhaled corticosteroids. [2010, amen"
+        },
+        {
+          "chunk_id": "gold-2026:1af944abea75901b",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 92,
+          "section": "MORTALITY",
+          "distance": 0.24772357940673828,
+          "similarity": 0.7522764205932617,
+          "relevant": true,
+          "text_preview": "Pharmacological therapy Previous studies such as TORCH(790) and SUMMIT(791) failed to provide evidence for the efficacy of a LABA+ICS combination compared to placebo in reducing mortality (primary outcome) in patients with COPD. These trials had no requirement for a history of previous exacerbations"
+        },
+        {
+          "chunk_id": "nice-ng115:3e873adf8403f329",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 19,
+          "section": "When prescribing long-acting medicines, ensure people receive inhalers they",
+          "distance": 0.24971389770507812,
+          "similarity": 0.7502861022949219,
+          "relevant": false,
+          "text_preview": "have been trained to use (for example, by specifying the brand and inhaler in prescriptions). [2018] For a short explanation of why the committee made the 2018 and 2019 recommendations and how they might affect practice, see the rationale and impact section on inhaled combination therapy.\n\nFull deta"
+        }
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.7706549763679504
+    },
+    {
+      "question": "What does NICE recommend for diagnosing COPD in people over 16?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "nice-ng115",
+      "expected_terms": [
+        "spirometry",
+        "COPD"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:aa1aae708bc15b81",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 40,
+          "section": "SPIROMETRY",
+          "distance": 0.20197969675064087,
+          "similarity": 0.7980203032493591,
+          "relevant": false,
+          "text_preview": "Spirometric criteria to define airflow obstruction The spirometric criterion for airflow obstruction selected by GOLD for the diagnosis of COPD remains a post- bronchodilator ratio of FEV1/FVC < 0.7. This criterion is simple and independent of reference values because it relates to variables measure"
+        },
+        {
+          "chunk_id": "gold-2026:61281e4aeb1ad79f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 32,
+          "section": "KEY POINTS:",
+          "distance": 0.23552578687667847,
+          "similarity": 0.7644742131233215,
+          "relevant": false,
+          "text_preview": "• A diagnosis of COPD should be considered in any patient who has dyspnea, chronic cough or sputum production, a history of recurrent lower respiratory tract infections and/or a history of exposure to risk factors; spirometry with post-bronchodilator FEV1/FVC < 0.7 is mandatory to establish the diag"
+        },
+        {
+          "chunk_id": "nice-ng115:4d20c027017dabc3",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 13,
+          "section": "For people with mild airflow obstruction, only diagnose COPD if they have one or",
+          "distance": 0.23909378051757812,
+          "similarity": 0.7609062194824219,
+          "relevant": true,
+          "text_preview": "For people with mild airflow obstruction, only diagnose COPD if they have one or\n\nmore of the symptoms in the recommendation on symptoms. [2010] Table 4 Gradation of severity of airflow obstruction Post- broncho- dilator FEV1/ FVC FEV1 % predicted\n\nNICE guideline\n\nCG12 (2004) severity of airflow obs"
+        },
+        {
+          "chunk_id": "gold-2026:2c5058a44f9d56f6",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 48,
+          "section": "SCREENING AND CASE-FINDING",
+          "distance": 0.24220454692840576,
+          "similarity": 0.7577954530715942,
+          "relevant": false,
+          "text_preview": "By analogy to pediatric growth charts, one could envision universal spirometry beginning around age five or six and continuing periodically into adulthood. Mapping individual trajectories in this way could allow people to serve as their own controls, enabling earlier identification of deviations fro"
+        },
+        {
+          "chunk_id": "gold-2026:8d154bb77f0473c0",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 15,
+          "section": "KEY POINTS:",
+          "distance": 0.24677056074142456,
+          "similarity": 0.7532294392585754,
+          "relevant": false,
+          "text_preview": "• The main environmental exposures leading to COPD are tobacco smoking and the inhalation of toxic particles and gases from household and outdoor air pollution, but other environmental and host factors (including abnormal lung development and accelerated lung aging) can also contribute.\n\nDiagnostic "
+        }
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.7980203032493591
+    },
+    {
+      "question": "How should comorbidities be considered in COPD?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "gold-2026",
+      "expected_terms": [
+        "comorbidities"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:31638a4348f57c4a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "KEY POINTS:",
+          "distance": 0.22194617986679077,
+          "similarity": 0.7780538201332092,
+          "relevant": true,
+          "text_preview": "• Following an exacerbation, the management of COPD and its comorbidities should be reviewed and appropriate measures for exacerbation prevention should be implemented (see Chapter 3).\n\nDEFINITION"
+        },
+        {
+          "chunk_id": "gold-2026:0c8c9744eabf0876",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 36,
+          "section": "MEDICAL HISTORY",
+          "distance": 0.2669779062271118,
+          "similarity": 0.7330220937728882,
+          "relevant": true,
+          "text_preview": "A detailed medical history of a new patient who is known, or suspected, to have COPD should include:\n\n► Patient’s exposure to risk factors, such as smoking and environmental exposures (household/outdoor).\n\n► Past medical history, including early life events (prematurity, low birthweight, maternal sm"
+        },
+        {
+          "chunk_id": "gold-2026:d93636281c99de8e",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 124,
+          "section": "KEY POINTS:",
+          "distance": 0.2741609811782837,
+          "similarity": 0.7258390188217163,
+          "relevant": true,
+          "text_preview": "In patients with COPD, some of these morbidities arise independently of COPD. However, many are causally related, either sharing pathobiological pathways or one disease increasing the poor outcome risk of the other. This concept, known as “syndemics” represents a link between COPD and some of its co"
+        },
+        {
+          "chunk_id": "gold-2026:27939128af252f49",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 43,
+          "section": "SCREENING AND CASE-FINDING",
+          "distance": 0.2910323739051819,
+          "similarity": 0.7089676260948181,
+          "relevant": false,
+          "text_preview": "Individuals with undiagnosed COPD are afflicted by poor quality of life and they suffer from exacerbations like those seen in patients with diagnosed disease.(378) A Canadian study of individuals with symptomatic undiagnosed COPD showed that undiagnosed COPD was associated with greater symptom burde"
+        },
+        {
+          "chunk_id": "gold-2026:25b28e0a251ebc7c",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 124,
+          "section": "KEY POINTS:",
+          "distance": 0.2942988872528076,
+          "similarity": 0.7057011127471924,
+          "relevant": false,
+          "text_preview": "Although COPD is negatively impacted by multiple comorbid diseases, COPD itself is also one of the most important conditions that adversely affects the outcomes of other disorders. For example, patients with congestive heart failure, ischemic heart disease,(1126) or those undergoing cardiac procedur"
+        }
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.7780538201332092
+    },
+    {
+      "question": "What follow-up considerations are described for COPD?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": null,
+      "expected_terms": [
+        "follow"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:de172e1b273a1c2d",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 151,
+          "section": "O2: CPAP: BIPAP :",
+          "distance": 0.24356377124786377,
+          "similarity": 0.7564362287521362,
+          "relevant": true,
+          "text_preview": "4. RECENT ADMISSIONS AND EMERGENCY VISITS Comments:\n\nHospital/ED Where Date Length Reason (Dx) 5. COPD Self-management (healthy behaviors) – Integrated (patient has used it in their daily life)?\n\nSmoke-free environment yes no cannot tell Medication adherence yes no cannot tell Prevention/management "
+        },
+        {
+          "chunk_id": "gold-2026:31638a4348f57c4a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "KEY POINTS:",
+          "distance": 0.24809497594833374,
+          "similarity": 0.7519050240516663,
+          "relevant": false,
+          "text_preview": "• Following an exacerbation, the management of COPD and its comorbidities should be reviewed and appropriate measures for exacerbation prevention should be implemented (see Chapter 3).\n\nDEFINITION"
+        },
+        {
+          "chunk_id": "gold-2026:25b28e0a251ebc7c",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 124,
+          "section": "KEY POINTS:",
+          "distance": 0.2818185091018677,
+          "similarity": 0.7181814908981323,
+          "relevant": false,
+          "text_preview": "Although COPD is negatively impacted by multiple comorbid diseases, COPD itself is also one of the most important conditions that adversely affects the outcomes of other disorders. For example, patients with congestive heart failure, ischemic heart disease,(1126) or those undergoing cardiac procedur"
+        },
+        {
+          "chunk_id": "gold-2026:8d154bb77f0473c0",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 15,
+          "section": "KEY POINTS:",
+          "distance": 0.287523090839386,
+          "similarity": 0.712476909160614,
+          "relevant": false,
+          "text_preview": "• The main environmental exposures leading to COPD are tobacco smoking and the inhalation of toxic particles and gases from household and outdoor air pollution, but other environmental and host factors (including abnormal lung development and accelerated lung aging) can also contribute.\n\nDiagnostic "
+        },
+        {
+          "chunk_id": "gold-2026:14e7570a7a3c61d0",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 43,
+          "section": "SCREENING AND CASE-FINDING",
+          "distance": 0.28883469104766846,
+          "similarity": 0.7111653089523315,
+          "relevant": false,
+          "text_preview": "The impact of undiagnosed COPD Studies from across the world suggest that up to 70% of adults with COPD remain undiagnosed. The 2007-2012 US National Health and Nutritional Examination Survey found obstructive lung disease in 13.4% of randomly selected American adults who underwent spirometry, howev"
+        }
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.7564362287521362
+    },
+    {
+      "question": "What vaccination or prevention topics are discussed for COPD patients?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "gold-2026",
+      "expected_terms": [
+        "vaccination",
+        "influenza",
+        "pneumococcal"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:31638a4348f57c4a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "KEY POINTS:",
+          "distance": 0.29024457931518555,
+          "similarity": 0.7097554206848145,
+          "relevant": false,
+          "text_preview": "• Following an exacerbation, the management of COPD and its comorbidities should be reviewed and appropriate measures for exacerbation prevention should be implemented (see Chapter 3).\n\nDEFINITION"
+        },
+        {
+          "chunk_id": "nice-ng115:3f1dfb8b6cfde54d",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 57,
+          "section": "People with COPD commonly experience exacerbations, which have a negative impact on",
+          "distance": 0.33717620372772217,
+          "similarity": 0.6628237962722778,
+          "relevant": false,
+          "text_preview": "their quality of life and are linked to worse disease prognosis. Certain groups of people with COPD are at higher risk of exacerbations, and reducing the number of exacerbations they experience should improve quality of life for them and their families. However, subgroups of these people may benefit"
+        },
+        {
+          "chunk_id": "gold-2026:de172e1b273a1c2d",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 151,
+          "section": "O2: CPAP: BIPAP :",
+          "distance": 0.3385809063911438,
+          "similarity": 0.6614190936088562,
+          "relevant": false,
+          "text_preview": "4. RECENT ADMISSIONS AND EMERGENCY VISITS Comments:\n\nHospital/ED Where Date Length Reason (Dx) 5. COPD Self-management (healthy behaviors) – Integrated (patient has used it in their daily life)?\n\nSmoke-free environment yes no cannot tell Medication adherence yes no cannot tell Prevention/management "
+        },
+        {
+          "chunk_id": "gold-2026:0c8c9744eabf0876",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 36,
+          "section": "MEDICAL HISTORY",
+          "distance": 0.34676146507263184,
+          "similarity": 0.6532385349273682,
+          "relevant": false,
+          "text_preview": "A detailed medical history of a new patient who is known, or suspected, to have COPD should include:\n\n► Patient’s exposure to risk factors, such as smoking and environmental exposures (household/outdoor).\n\n► Past medical history, including early life events (prematurity, low birthweight, maternal sm"
+        },
+        {
+          "chunk_id": "gold-2026:e845c6935aed0c13",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 12,
+          "section": "BACKGROUND",
+          "distance": 0.35062330961227417,
+          "similarity": 0.6493766903877258,
+          "relevant": false,
+          "text_preview": "In 2001, GOLD released its first report, Global Strategy for the Diagnosis, Management, and Prevention of COPD. This report was not intended to be a comprehensive textbook on COPD, but rather to summarize the current state of the field. It was developed by individuals with expertise in COPD research"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.7097554206848145
+    },
+    {
+      "question": "What clinical features are associated with COPD exacerbation severity?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "gold-2026",
+      "expected_terms": [
+        "severity"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:06c755bc2c350e3e",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "DEFINITION",
+          "distance": 0.1545020341873169,
+          "similarity": 0.8454979658126831,
+          "relevant": true,
+          "text_preview": "An exacerbation of COPD is an acute event with symptoms worsening over a few days (up to 14 days) and characterized by increased dyspnea and/or cough and sputum that may be accompanied by tachypnea and/or tachycardia and is often associated with increased local and systemic inflammation caused by in"
+        },
+        {
+          "chunk_id": "gold-2026:0dca38a6b59b8496",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "KEY POINTS:",
+          "distance": 0.18168699741363525,
+          "similarity": 0.8183130025863647,
+          "relevant": true,
+          "text_preview": "• Following an exacerbation, the management of COPD and its comorbidities should be reviewed and appropriate measures for exacerbation prevention should be implemented (see Chapter 3).\n\nDEFINITION\n\nAn exacerbation of COPD is an acute event with symptoms worsening over a few days (up to 14 days) and "
+        },
+        {
+          "chunk_id": "gold-2026:23131592961de05c",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 106,
+          "section": "DEFINITION",
+          "distance": 0.22461724281311035,
+          "similarity": 0.7753827571868896,
+          "relevant": true,
+          "text_preview": "Around 50% of those admitted had a moderate episode and close to 10% a severe episode.(933-936) Data suggest that severity of exacerbations using the Rome grading scheme correlates with prognosis, including need for intensive care admission and mortality.(933-937) In settings where laboratory variab"
+        },
+        {
+          "chunk_id": "gold-2026:8d154bb77f0473c0",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 15,
+          "section": "KEY POINTS:",
+          "distance": 0.2363220453262329,
+          "similarity": 0.7636779546737671,
+          "relevant": false,
+          "text_preview": "• The main environmental exposures leading to COPD are tobacco smoking and the inhalation of toxic particles and gases from household and outdoor air pollution, but other environmental and host factors (including abnormal lung development and accelerated lung aging) can also contribute.\n\nDiagnostic "
+        },
+        {
+          "chunk_id": "gold-2026:cccb35bce2c59bce",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 33,
+          "section": "CLINICAL PRESENTATION",
+          "distance": 0.24084830284118652,
+          "similarity": 0.7591516971588135,
+          "relevant": false,
+          "text_preview": "Symptoms Chronic dyspnea is the most characteristic symptom of COPD. Cough with sputum production is present in up to 30% of patients. These symptoms may vary from day-to-day(300) and may precede the development of airflow obstruction by many years. Individuals, particularly those with COPD risk fac"
+        }
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.8454979658126831
+    },
+    {
+      "question": "What does NICE say about self-management plans for COPD?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "nice-ng115",
+      "expected_terms": [
+        "self-management",
+        "action plan"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "nice-ng115:b6a75ec9abb604ed",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 70,
+          "section": "These recommendations are unlikely to have a significant impact on resources, as the",
+          "distance": 0.2547731399536133,
+          "similarity": 0.7452268600463867,
+          "relevant": true,
+          "text_preview": "marginal cost of providing advice on exacerbations to people with COPD is very low. An increased emphasis on physical activity may lead to an increase in referrals to pulmonary rehabilitation, which is known to be a highly cost-effective intervention for people with COPD. The recommendations may pro"
+        },
+        {
+          "chunk_id": "nice-ng115:d4e8a14b80f0a624",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 71,
+          "section": "How the recommendations might affect practice",
+          "distance": 0.2936854958534241,
+          "similarity": 0.7063145041465759,
+          "relevant": true,
+          "text_preview": "Self-management plans are already in place for some people with COPD. The recommendations may change the content of these plans, and may increase the number of people using a self-management plan. However, self-management plans are highly cost effective and the increased cost of providing them shoul"
+        },
+        {
+          "chunk_id": "gold-2026:899ff92dedeb5361",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 169,
+          "section": "PHARMACOLOGICAL THERAPY",
+          "distance": 0.29810017347335815,
+          "similarity": 0.7018998265266418,
+          "relevant": false,
+          "text_preview": "Self-management A Delphi process has resulted in a conceptual definition for COPD self-management interventions: “A COPD self- management intervention is structured but personalized and often multi-component, with goals of motivating, engaging and supporting the patients to positively adapt their he"
+        },
+        {
+          "chunk_id": "nice-ng115:8bdaf4e42e206ef6",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 42,
+          "section": "Do not offer routine telehealth monitoring of physiological status as part of",
+          "distance": 0.30740320682525635,
+          "similarity": 0.6925967931747437,
+          "relevant": true,
+          "text_preview": "management for stable COPD. [2018] For a short explanation of why the committee made the 2018 recommendations and how they might affect practice, see the rationale and impact section on self- management, education and telehealth monitoring.\n\nFull details of the evidence and the committee's discussio"
+        },
+        {
+          "chunk_id": "gold-2026:1448b762e66e2a62",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 152,
+          "section": "O2: CPAP: BIPAP :",
+          "distance": 0.30899912118911743,
+          "similarity": 0.6910008788108826,
+          "relevant": false,
+          "text_preview": "4. Section 3 – Action plan a. Describe if the patient already has a written action plan. See example of an action plan from the Living well with COPD program.(1434) Describe if the education for this action plan has already been done. Describe if the written action plan includes a prescription to be"
+        }
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.7452268600463867
+    },
+    {
+      "question": "When should COPD patients be referred for specialist advice?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "nice-ng115",
+      "expected_terms": [
+        "refer",
+        "specialist"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "nice-ng115:b9df5f3c73ec1acd",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 43,
+          "section": "Follow-up of all people with COPD should include:",
+          "distance": 0.26054638624191284,
+          "similarity": 0.7394536137580872,
+          "relevant": true,
+          "text_preview": "• recording the values of spirometric tests performed at diagnosis (both absolute and percent predicted)\n\n• offering advice and treatment to help them stop smoking, and referral to specialist stop smoking services (see the NICE guideline on tobacco:\n\npreventing uptake, promoting quitting and treatin"
+        },
+        {
+          "chunk_id": "gold-2026:de172e1b273a1c2d",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 151,
+          "section": "O2: CPAP: BIPAP :",
+          "distance": 0.27213817834854126,
+          "similarity": 0.7278618216514587,
+          "relevant": false,
+          "text_preview": "4. RECENT ADMISSIONS AND EMERGENCY VISITS Comments:\n\nHospital/ED Where Date Length Reason (Dx) 5. COPD Self-management (healthy behaviors) – Integrated (patient has used it in their daily life)?\n\nSmoke-free environment yes no cannot tell Medication adherence yes no cannot tell Prevention/management "
+        },
+        {
+          "chunk_id": "nice-ng115:60f1f011f3b64d00",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 5,
+          "section": "Recommendations",
+          "distance": 0.27824801206588745,
+          "similarity": 0.7217519879341125,
+          "relevant": false,
+          "text_preview": "Recommendations\n\nPeople have the right to be involved in discussions and make informed decisions\n\nabout their care, as described in NICE's information on making decisions about your care.\n\nMaking decisions using NICE guidelines explains how we use words to show the\n\nstrength (or certainty) of our re"
+        },
+        {
+          "chunk_id": "nice-ng115:8bdaf4e42e206ef6",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 42,
+          "section": "Do not offer routine telehealth monitoring of physiological status as part of",
+          "distance": 0.2853078842163086,
+          "similarity": 0.7146921157836914,
+          "relevant": true,
+          "text_preview": "management for stable COPD. [2018] For a short explanation of why the committee made the 2018 recommendations and how they might affect practice, see the rationale and impact section on self- management, education and telehealth monitoring.\n\nFull details of the evidence and the committee's discussio"
+        },
+        {
+          "chunk_id": "nice-ng115:8480242f0462c2cc",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 13,
+          "section": "Very severe",
+          "distance": 0.3057628273963928,
+          "similarity": 0.6942371726036072,
+          "relevant": true,
+          "text_preview": "GOLD guidance: Global Initiative for Chronic Obstructive Lung Disease (GOLD; 2008) Chronic obstructive pulmonary disease in over 16s: diagnosis and management (NG115) © NICE 2026. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- conditions#notice-of-rights).\n\nPage"
+        }
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.7394536137580872
+    },
+    {
+      "question": "What education should be provided to people with COPD?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "nice-ng115",
+      "expected_terms": [
+        "education",
+        "information"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "nice-ng115:8bdaf4e42e206ef6",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 42,
+          "section": "Do not offer routine telehealth monitoring of physiological status as part of",
+          "distance": 0.40673476457595825,
+          "similarity": 0.5932652354240417,
+          "relevant": true,
+          "text_preview": "management for stable COPD. [2018] For a short explanation of why the committee made the 2018 recommendations and how they might affect practice, see the rationale and impact section on self- management, education and telehealth monitoring.\n\nFull details of the evidence and the committee's discussio"
+        },
+        {
+          "chunk_id": "nice-ng115:3f5b56deaf95f6c1",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 35,
+          "section": "When defining the activity of the multidisciplinary team, think about the following",
+          "distance": 0.41900843381881714,
+          "similarity": 0.5809915661811829,
+          "relevant": true,
+          "text_preview": "• assessment (including performing spirometry, assessing which delivery systems to use for inhaled therapy, the need for aids for daily living and assessing the need for oxygen)\n\n• care and treatment, including:\n\n－ pulmonary rehabilitation － identifying and managing anxiety and depression － advising"
+        },
+        {
+          "chunk_id": "gold-2026:31638a4348f57c4a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "KEY POINTS:",
+          "distance": 0.4268872141838074,
+          "similarity": 0.5731127858161926,
+          "relevant": false,
+          "text_preview": "• Following an exacerbation, the management of COPD and its comorbidities should be reviewed and appropriate measures for exacerbation prevention should be implemented (see Chapter 3).\n\nDEFINITION"
+        },
+        {
+          "chunk_id": "nice-ng115:b6a75ec9abb604ed",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 70,
+          "section": "These recommendations are unlikely to have a significant impact on resources, as the",
+          "distance": 0.431368887424469,
+          "similarity": 0.568631112575531,
+          "relevant": true,
+          "text_preview": "marginal cost of providing advice on exacerbations to people with COPD is very low. An increased emphasis on physical activity may lead to an increase in referrals to pulmonary rehabilitation, which is known to be a highly cost-effective intervention for people with COPD. The recommendations may pro"
+        },
+        {
+          "chunk_id": "gold-2026:1448b762e66e2a62",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 152,
+          "section": "O2: CPAP: BIPAP :",
+          "distance": 0.43929237127304077,
+          "similarity": 0.5607076287269592,
+          "relevant": false,
+          "text_preview": "4. Section 3 – Action plan a. Describe if the patient already has a written action plan. See example of an action plan from the Living well with COPD program.(1434) Describe if the education for this action plan has already been done. Describe if the written action plan includes a prescription to be"
+        }
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.5932652354240417
+    },
+    {
+      "question": "What is the role of blood eosinophils in COPD treatment decisions?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "gold-2026",
+      "expected_terms": [
+        "eosinophil"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:39c66f730353a0dc",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 75,
+          "section": "PHARMACOLOGICAL MAINTENANCE TREATMENT OF",
+          "distance": 0.33309847116470337,
+          "similarity": 0.6669015288352966,
+          "relevant": true,
+          "text_preview": "► Use of LABA+ICS in COPD is not encouraged. If there is an indication for an ICS, then LABA+LAMA+ICS has been shown to be superior to LABA+ICS and is therefore the preferred choice.(467,492) ► Consider LABA+LAMA+ICS as initial therapy in group E if eosinophil counts are ≥ 300 cells/µL (practical re"
+        },
+        {
+          "chunk_id": "gold-2026:b97402c35e70ea77",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 111,
+          "section": "RISK FACTORS AND SYMPTOMS",
+          "distance": 0.34068864583969116,
+          "similarity": 0.6593113541603088,
+          "relevant": true,
+          "text_preview": "Cohort studies have produced differing results regarding the ability of blood eosinophils to predict future exacerbation outcomes, reporting either no relationship(457) or a positive relationship.(458,459) Differences between studies are likely due to different exacerbation histories and ICS use. Th"
+        },
+        {
+          "chunk_id": "gold-2026:b25bee8d9a0d1ead",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 62,
+          "section": "INTRODUCTION",
+          "distance": 0.3727889060974121,
+          "similarity": 0.6272110939025879,
+          "relevant": true,
+          "text_preview": "Assessing disease activity and its modulation by interventions generally requires the monitoring of biomarkers that are related to the reversible or modifiable biological processes. In COPD, there has been progress using biomarkers (blood eosinophil counts) to identify individuals with type 2 inflam"
+        },
+        {
+          "chunk_id": "gold-2026:d4cd7d5fd7a497e6",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 76,
+          "section": "PHARMACOLOGICAL MAINTENANCE TREATMENT OF",
+          "distance": 0.39057254791259766,
+          "similarity": 0.6094274520874023,
+          "relevant": true,
+          "text_preview": "A separate algorithm is provided for FOLLOW-UP treatment, where the management is based on two key treatable traits: persistence of dyspnea and occurrence of exacerbations (Figure 3.9).(453,681-683) These follow-up recommendations are designed to facilitate management of patients taking maintenance "
+        },
+        {
+          "chunk_id": "gold-2026:37cabdfcb47b991b",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 77,
+          "section": "PHARMACOLOGICAL MAINTENANCE TREATMENT OF",
+          "distance": 0.3949223756790161,
+          "similarity": 0.6050776243209839,
+          "relevant": true,
+          "text_preview": "► At all stages, dyspnea due to other causes (not COPD) should be investigated and treated appropriately. Inhaler technique and adherence should be considered as causes of inadequate treatment response. Rehabilitation should also be considered.\n\nExacerbations ► For patients who have an exacerbation "
+        }
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.6669015288352966
+    },
+    {
+      "question": "What does GOLD recommend for initial pharmacological treatment of COPD?",
+      "category": "in_scope",
+      "answerable": true,
+      "expected_document": "gold-2026",
+      "expected_terms": [
+        "initial",
+        "pharmacological"
+      ],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:644dab87a32f069a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 6,
+          "section": "METHODOLOGY",
+          "distance": 0.25106966495513916,
+          "similarity": 0.7489303350448608,
+          "relevant": false,
+          "text_preview": "The GOLD Science Committeeb was established in 2002 to review published research on COPD management and prevention, to evaluate the impact of this research on recommendations in the GOLD documents related to management and prevention, and to post yearly updates on the GOLD website. Its members are r"
+        },
+        {
+          "chunk_id": "gold-2026:e845c6935aed0c13",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 12,
+          "section": "BACKGROUND",
+          "distance": 0.28616195917129517,
+          "similarity": 0.7138380408287048,
+          "relevant": false,
+          "text_preview": "In 2001, GOLD released its first report, Global Strategy for the Diagnosis, Management, and Prevention of COPD. This report was not intended to be a comprehensive textbook on COPD, but rather to summarize the current state of the field. It was developed by individuals with expertise in COPD research"
+        },
+        {
+          "chunk_id": "gold-2026:eb6fa4b026cb9504",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 53,
+          "section": "INITIAL ASSESSMENT",
+          "distance": 0.28774917125701904,
+          "similarity": 0.712250828742981,
+          "relevant": true,
+          "text_preview": "4) Finally, although preventing exacerbations is already a main goal of COPD treatment because of their impact on the prognosis, lung function and health status of the patient,(477) the increased cardiovascular risk that occurs during and following the acute episode is another strong clinical argume"
+        },
+        {
+          "chunk_id": "gold-2026:e1478b2c711b3bb2",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 5,
+          "section": "Chapter 5 – Multimorbidity in COPD has been completely revised, and new figures have been",
+          "distance": 0.28995388746261597,
+          "similarity": 0.710046112537384,
+          "relevant": false,
+          "text_preview": "Alvar G. Agusti, MD Chair, GOLD Board of Directors Claus Vogelmeier, MD Chair, GOLD Science Committee\n\nGLOBAL STRATEGY FOR THE DIAGNOSIS, MANAGEMENT\n\nAND PREVENTION OF COPD 2026 UPDATEa\n\nMETHODOLOGY\n\nWhen the Global Initiative for Chronic Obstructive Lung Disease (GOLD) program was initiated in 1998"
+        },
+        {
+          "chunk_id": "gold-2026:275bbf12de7cdf9f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 5,
+          "section": "Chapter 5 – Multimorbidity in COPD has been completely revised, and new figures have been",
+          "distance": 0.2912355661392212,
+          "similarity": 0.7087644338607788,
+          "relevant": false,
+          "text_preview": "References have been checked and updated throughout the document.\n\nGOLD has been fortunate to have a network of internationally distinguished health professionals from multiple disciplines.\n\nMany of these experts have initiated investigations into the causes and prevalence of COPD in their countries"
+        }
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "hit": 1.0,
+      "best_similarity": 0.7489303350448608
+    },
+    {
+      "question": "What is the best COPD inhaler for a patient with missing spirometry and no symptom history?",
+      "category": "ambiguous_insufficient",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:61281e4aeb1ad79f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 32,
+          "section": "KEY POINTS:",
+          "distance": 0.2414657473564148,
+          "similarity": 0.7585342526435852,
+          "relevant": false,
+          "text_preview": "• A diagnosis of COPD should be considered in any patient who has dyspnea, chronic cough or sputum production, a history of recurrent lower respiratory tract infections and/or a history of exposure to risk factors; spirometry with post-bronchodilator FEV1/FVC < 0.7 is mandatory to establish the diag"
+        },
+        {
+          "chunk_id": "gold-2026:c5e6266a13e7f6d4",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 38,
+          "section": "SPIROMETRY",
+          "distance": 0.2673320174217224,
+          "similarity": 0.7326679825782776,
+          "relevant": false,
+          "text_preview": "Figure 2.5A shows a normal spirometry tracing and Figure 2.5B shows a tracing obtained in a person with COPD.\n\nPatients with COPD typically show a decrease in both FEV1 (due to airflow obstruction) and (to a lesser degree) FVC (due to gas trapping).\n\nPre- or post-bronchodilator spirometry to confirm"
+        },
+        {
+          "chunk_id": "gold-2026:f4f29a5685abe13e",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 39,
+          "section": "SPIROMETRY",
+          "distance": 0.27150648832321167,
+          "similarity": 0.7284935116767883,
+          "relevant": false,
+          "text_preview": "Pre- or post-bronchodilator spirometry to confirm the diagnosis of COPD In line with other national and international guidelines, GOLD recommends using post-bronchodilator values when considering a diagnosis of COPD. Historically, post-bronchodilator values were considered more appropriate for confi"
+        },
+        {
+          "chunk_id": "gold-2026:a395cca276435240",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 18,
+          "section": "KEY POINTS:",
+          "distance": 0.27628594636917114,
+          "similarity": 0.7237140536308289,
+          "relevant": false,
+          "text_preview": "Yet, some individuals may present with structural lung lesions (e.g., emphysema) and/or physiological abnormalities (including low FEV1, gas trapping, hyperinflation, reduced lung diffusing capacity and/or rapid FEV1 decline) without airflow obstruction (FEV1/FVC ≥ 0.7 post-bronchodilation). These s"
+        },
+        {
+          "chunk_id": "gold-2026:8e730e8af641c99f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 32,
+          "section": "DIAGNOSIS",
+          "distance": 0.29450780153274536,
+          "similarity": 0.7054921984672546,
+          "relevant": false,
+          "text_preview": "A diagnosis of COPD should be considered in any patient who has dyspnea, chronic cough or sputum production, and/or a history of exposure to risk factors for the disease (Figure 2.1) but forced spirometry that demonstrates the presence of a post-bronchodilator FEV1/FVC < 0.7 is mandatory to establis"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.7585342526435852
+    },
+    {
+      "question": "Can GOLD and NICE determine prognosis for a specific COPD patient without clinical measurements?",
+      "category": "ambiguous_insufficient",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:e845c6935aed0c13",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 12,
+          "section": "BACKGROUND",
+          "distance": 0.28981178998947144,
+          "similarity": 0.7101882100105286,
+          "relevant": false,
+          "text_preview": "In 2001, GOLD released its first report, Global Strategy for the Diagnosis, Management, and Prevention of COPD. This report was not intended to be a comprehensive textbook on COPD, but rather to summarize the current state of the field. It was developed by individuals with expertise in COPD research"
+        },
+        {
+          "chunk_id": "gold-2026:644dab87a32f069a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 6,
+          "section": "METHODOLOGY",
+          "distance": 0.3041616678237915,
+          "similarity": 0.6958383321762085,
+          "relevant": false,
+          "text_preview": "The GOLD Science Committeeb was established in 2002 to review published research on COPD management and prevention, to evaluate the impact of this research on recommendations in the GOLD documents related to management and prevention, and to post yearly updates on the GOLD website. Its members are r"
+        },
+        {
+          "chunk_id": "gold-2026:275bbf12de7cdf9f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 5,
+          "section": "Chapter 5 – Multimorbidity in COPD has been completely revised, and new figures have been",
+          "distance": 0.30924344062805176,
+          "similarity": 0.6907565593719482,
+          "relevant": false,
+          "text_preview": "References have been checked and updated throughout the document.\n\nGOLD has been fortunate to have a network of internationally distinguished health professionals from multiple disciplines.\n\nMany of these experts have initiated investigations into the causes and prevalence of COPD in their countries"
+        },
+        {
+          "chunk_id": "gold-2026:3eb9aea923e3d334",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 12,
+          "section": "INTRODUCTION",
+          "distance": 0.3119139075279236,
+          "similarity": 0.6880860924720764,
+          "relevant": false,
+          "text_preview": "The aim of the GOLD Report is to provide a non-biased review of the current evidence for the assessment, diagnosis and treatment of people with COPD. One of the strengths of GOLD reports is the treatment objectives. Treatment objectives are organized into two groups: objectives that are directed tow"
+        },
+        {
+          "chunk_id": "gold-2026:91e77cc90b332505",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 32,
+          "section": "KEY POINTS:",
+          "distance": 0.3195333480834961,
+          "similarity": 0.6804666519165039,
+          "relevant": false,
+          "text_preview": "• Concomitant chronic diseases (multimorbidity) occur frequently in patients with COPD, including cardiovascular disease, skeletal muscle dysfunction, metabolic syndrome, osteoporosis, depression, anxiety, and lung cancer. These comorbidities should be actively sought, and treated appropriately when"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.7101882100105286
+    },
+    {
+      "question": "Which exact inhaler brand should my local pharmacy dispense for COPD?",
+      "category": "ambiguous_insufficient",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:e65ccfa8d4cef758",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 80,
+          "section": "PHARMACOLOGICAL MAINTENANCE TREATMENT OF",
+          "distance": 0.2869972586631775,
+          "similarity": 0.7130027413368225,
+          "relevant": false,
+          "text_preview": "• Further exacerbations: treatment should be escalated to LABA+LAMA+ICS if the blood eosinophil count is ≥ 100 cells/µL or switched to LABA+LAMA if it is < 100 cells/µL.(467,694) • Major symptoms: change to LABA+LAMA or LABA+LAMA+ICS depending on previous treatment response to ICS (Figure 3.12).(695"
+        },
+        {
+          "chunk_id": "nice-ng115:3e873adf8403f329",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 19,
+          "section": "When prescribing long-acting medicines, ensure people receive inhalers they",
+          "distance": 0.32020825147628784,
+          "similarity": 0.6797917485237122,
+          "relevant": false,
+          "text_preview": "have been trained to use (for example, by specifying the brand and inhaler in prescriptions). [2018] For a short explanation of why the committee made the 2018 and 2019 recommendations and how they might affect practice, see the rationale and impact section on inhaled combination therapy.\n\nFull deta"
+        },
+        {
+          "chunk_id": "nice-ng115:ed21068cf230e384",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 64,
+          "section": "However, this cost is likely to be at least partially offset by savings from reduced numbers",
+          "distance": 0.34041285514831543,
+          "similarity": 0.6595871448516846,
+          "relevant": false,
+          "text_preview": "However, this cost is likely to be at least partially offset by savings from reduced numbers\n\nof exacerbations and better management of symptoms for people switching to triple therapy.\n\nIt is already routine in practice to have a clinical review before starting triple therapy. The recommendation on "
+        },
+        {
+          "chunk_id": "gold-2026:217f58edca976423",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 75,
+          "section": "PHARMACOLOGICAL MAINTENANCE TREATMENT OF",
+          "distance": 0.3406468629837036,
+          "similarity": 0.6593531370162964,
+          "relevant": false,
+          "text_preview": "Group A ► All patients in group A should be offered bronchodilator treatment based on its effect on breathlessness. This can be either a short- or a long-acting bronchodilator. If available and affordable a long-acting bronchodilator is the preferred choice except in patients with very occasional br"
+        },
+        {
+          "chunk_id": "nice-ng115:100897e8a38b70d6",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 17,
+          "section": "Do not assess the effectiveness of bronchodilator therapy using lung function",
+          "distance": 0.34522515535354614,
+          "similarity": 0.6547748446464539,
+          "relevant": false,
+          "text_preview": "alone. Include a variety of other measures such as improvement in symptoms, activities of daily living, exercise capacity, and rapidity of symptom relief. [2004] 1.2.10 Offer LAMA+LABA to people who:\n\n• have spirometrically confirmed COPD and\n\n• do not have asthmatic features/features suggesting ste"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.7130027413368225
+    },
+    {
+      "question": "Does the guideline prove that a specific patient needs home oxygen today?",
+      "category": "ambiguous_insufficient",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:bb7302ba3346288d",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 87,
+          "section": "NON-PHARMACOLOGICAL TREATMENT OF COPD",
+          "distance": 0.37390947341918945,
+          "similarity": 0.6260905265808105,
+          "relevant": false,
+          "text_preview": "► PaO2 at or below 55 mmHg (7.3 kPa) or SaO2 at or below 88%, with or without hypercapnia confirmed twice over a three-week period; or ► PaO2 between 55 mmHg (7.3 kPa) and 60 mmHg (8.0 kPa), or SaO2 of 88%, if there is evidence of pulmonary hypertension, peripheral edema suggesting congestive cardia"
+        },
+        {
+          "chunk_id": "gold-2026:725de8eb63fd4e6c",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 87,
+          "section": "NON-PHARMACOLOGICAL TREATMENT OF COPD",
+          "distance": 0.38239699602127075,
+          "similarity": 0.6176030039787292,
+          "relevant": false,
+          "text_preview": "LTOT has been shown to increase survival in patients with severe resting hypoxemia.(750) Ekström and colleagues(751) reported that among patients with severe hypoxemia agreeing to participate in a study, LTOT used for 24 hours per day did not result in a lower risk of hospitalization or death within"
+        },
+        {
+          "chunk_id": "nice-ng115:41bc66322ca1c526",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 28,
+          "section": "Base the decision on whether long-term oxygen therapy is suitable on the",
+          "distance": 0.3854081630706787,
+          "similarity": 0.6145918369293213,
+          "relevant": false,
+          "text_preview": "Base the decision on whether long-term oxygen therapy is suitable on the\n\nresults of the structured risk assessment. [2018] 1.2.61\n\nFor people who smoke or live with people who smoke, but who meet the other\n\ncriteria for long-term oxygen therapy, ensure the person who smokes is offered smoking cessa"
+        },
+        {
+          "chunk_id": "gold-2026:f34151a09f3515a3",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 87,
+          "section": "NON-PHARMACOLOGICAL TREATMENT OF COPD",
+          "distance": 0.3951563239097595,
+          "similarity": 0.6048436760902405,
+          "relevant": false,
+          "text_preview": "In patients with moderate resting or exercise-induced arterial oxygen desaturation LTOT does not lengthen time to death or first hospitalization, or provide sustained benefit for any of the measured outcomes.(752) Breathlessness may be relieved in patients with COPD who are either mildly hypoxemic, "
+        },
+        {
+          "chunk_id": "nice-ng115:12d896bbe289f791",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 65,
+          "section": "It is likely that these recommendations will increase the number of people taking",
+          "distance": 0.4050963521003723,
+          "similarity": 0.5949036478996277,
+          "relevant": false,
+          "text_preview": "prophylactic antibiotics. This is unlikely to have a significant resource impact, given the relatively low cost of antibiotics. By reducing exacerbation frequency it is likely to reduce the amount of oral corticosteroids taken by people with COPD.\n\nChronic obstructive pulmonary disease in over 16s: "
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.6260905265808105
+    },
+    {
+      "question": "What is the precise COPD life expectancy for a 67-year-old smoker?",
+      "category": "ambiguous_insufficient",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:fe3563161f5e1e12",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 125,
+          "section": "KEY POINTS:",
+          "distance": 0.30613261461257935,
+          "similarity": 0.6938673853874207,
+          "relevant": false,
+          "text_preview": "The patient should also be evaluated for Mobility, with particular attention to balance and frailty,(1135) and exercise capacity tested with the 6MWD test, an excellent predictor of survival in patients with COPD.(522,1136) It is important to review all Medications used by the patient, as more than "
+        },
+        {
+          "chunk_id": "gold-2026:7105eb341b856423",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 20,
+          "section": "BURDEN OF COPD",
+          "distance": 0.30813461542129517,
+          "similarity": 0.6918653845787048,
+          "relevant": false,
+          "text_preview": "The age-standardized death rate from COPD attributed to smoking has significantly decreased in all countries, with HMICs showing the largest decreases.(73) In LICs household air pollution is the leading risk factor in both sexes for age- standardized death rate.(73) Although age-standardized COPD mo"
+        },
+        {
+          "chunk_id": "gold-2026:595be8ca001a2e88",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 20,
+          "section": "BURDEN OF COPD",
+          "distance": 0.3262060284614563,
+          "similarity": 0.6737939715385437,
+          "relevant": false,
+          "text_preview": "Morbidity due to COPD increases with age,(79,81) and in patients with COPD the development of comorbidities is seen at an earlier age than in the general population.(86,87) Morbidity in COPD may also be influenced by concomitant chronic conditions (e.g., cardiovascular disease, musculoskeletal impai"
+        },
+        {
+          "chunk_id": "gold-2026:bdd4b7a2fd290808",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 18,
+          "section": "BURDEN OF COPD",
+          "distance": 0.3507951498031616,
+          "similarity": 0.6492048501968384,
+          "relevant": false,
+          "text_preview": "COPD is a leading cause of morbidity and mortality worldwide with an economic and social burden that is both substantial and increasing.(70-74) COPD prevalence, morbidity and mortality vary across countries,(70-73,75) and although it is often directly related to the prevalence of tobacco smoking, in"
+        },
+        {
+          "chunk_id": "gold-2026:8fa49b6677f8e651",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 19,
+          "section": "BURDEN OF COPD",
+          "distance": 0.36363571882247925,
+          "similarity": 0.6363642811775208,
+          "relevant": false,
+          "text_preview": "Of note, the lowest estimates of COPD prevalence are those based on the self-reporting of a diagnosis of COPD, or equivalent condition. For example, most national data show that < 6% of the adult population have been told that they have COPD.(81) This is likely to be a reflection of the widespread u"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.6938673853874207
+    },
+    {
+      "question": "Should antibiotics be given for this COPD exacerbation without sputum, fever, or severity details?",
+      "category": "ambiguous_insufficient",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "nice-ng115:13a249e5201999cb",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 23,
+          "section": "Oral anti-tussive therapy",
+          "distance": 0.2660953998565674,
+          "similarity": 0.7339046001434326,
+          "relevant": false,
+          "text_preview": "[2004]\n\nOral prophylactic antibiotic therapy\n\n1.2.44\n\nBefore starting prophylactic antibiotic therapy in a person with COPD, think about\n\nwhether respiratory specialist input is needed. [2018] 1.2.45 Consider azithromycin (usually 250 mg 3 times a week) for people with COPD if they:\n\n• do not smoke "
+        },
+        {
+          "chunk_id": "gold-2026:265a73b1428597cc",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 115,
+          "section": "PHARMACOLOGICAL TREATMENT",
+          "distance": 0.26981282234191895,
+          "similarity": 0.730187177658081,
+          "relevant": false,
+          "text_preview": "Several biomarkers of airway infection are being studied in exacerbations of COPD. Earlier studies of CRP reported contradictory findings.(1045,1046) One RCT found a marked reduction in antibiotic prescriptions without impaired outcomes in UK primary care outpatients with an exacerbation in whom ant"
+        },
+        {
+          "chunk_id": "gold-2026:06c755bc2c350e3e",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "DEFINITION",
+          "distance": 0.2722102999687195,
+          "similarity": 0.7277897000312805,
+          "relevant": false,
+          "text_preview": "An exacerbation of COPD is an acute event with symptoms worsening over a few days (up to 14 days) and characterized by increased dyspnea and/or cough and sputum that may be accompanied by tachypnea and/or tachycardia and is often associated with increased local and systemic inflammation caused by in"
+        },
+        {
+          "chunk_id": "gold-2026:d8c3bda12cb051b0",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 115,
+          "section": "PHARMACOLOGICAL TREATMENT",
+          "distance": 0.28273648023605347,
+          "similarity": 0.7172635197639465,
+          "relevant": false,
+          "text_preview": "Antibiotics Although the infectious agents in COPD exacerbations can be viral or bacterial,(964,1037) the use of antibiotics in exacerbations remains controversial. A Cochrane review concluded that there is a strong beneficial effect of antibiotic treatment during an exacerbation requiring intensive"
+        },
+        {
+          "chunk_id": "gold-2026:632d6923fce07242",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 115,
+          "section": "PHARMACOLOGICAL TREATMENT",
+          "distance": 0.2853493094444275,
+          "similarity": 0.7146506905555725,
+          "relevant": false,
+          "text_preview": "► Have these at least two of these symptoms: increase in dyspnea, fever, sputum volume, and sputum purulence, if increased purulence of sputum is one of these symptoms ► Prior positive sputum culture during prior exacerbation ► Require mechanical ventilation (invasive or noninvasive).(926,964) The c"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.7339046001434326
+    },
+    {
+      "question": "Can COPD be diagnosed from cough alone without spirometry?",
+      "category": "ambiguous_insufficient",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:8e730e8af641c99f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 32,
+          "section": "DIAGNOSIS",
+          "distance": 0.16855227947235107,
+          "similarity": 0.8314477205276489,
+          "relevant": false,
+          "text_preview": "A diagnosis of COPD should be considered in any patient who has dyspnea, chronic cough or sputum production, and/or a history of exposure to risk factors for the disease (Figure 2.1) but forced spirometry that demonstrates the presence of a post-bronchodilator FEV1/FVC < 0.7 is mandatory to establis"
+        },
+        {
+          "chunk_id": "gold-2026:61281e4aeb1ad79f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 32,
+          "section": "KEY POINTS:",
+          "distance": 0.18761378526687622,
+          "similarity": 0.8123862147331238,
+          "relevant": false,
+          "text_preview": "• A diagnosis of COPD should be considered in any patient who has dyspnea, chronic cough or sputum production, a history of recurrent lower respiratory tract infections and/or a history of exposure to risk factors; spirometry with post-bronchodilator FEV1/FVC < 0.7 is mandatory to establish the diag"
+        },
+        {
+          "chunk_id": "gold-2026:91e77cc90b332505",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 32,
+          "section": "KEY POINTS:",
+          "distance": 0.1931104063987732,
+          "similarity": 0.8068895936012268,
+          "relevant": false,
+          "text_preview": "• Concomitant chronic diseases (multimorbidity) occur frequently in patients with COPD, including cardiovascular disease, skeletal muscle dysfunction, metabolic syndrome, osteoporosis, depression, anxiety, and lung cancer. These comorbidities should be actively sought, and treated appropriately when"
+        },
+        {
+          "chunk_id": "gold-2026:c5e6266a13e7f6d4",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 38,
+          "section": "SPIROMETRY",
+          "distance": 0.20669376850128174,
+          "similarity": 0.7933062314987183,
+          "relevant": false,
+          "text_preview": "Figure 2.5A shows a normal spirometry tracing and Figure 2.5B shows a tracing obtained in a person with COPD.\n\nPatients with COPD typically show a decrease in both FEV1 (due to airflow obstruction) and (to a lesser degree) FVC (due to gas trapping).\n\nPre- or post-bronchodilator spirometry to confirm"
+        },
+        {
+          "chunk_id": "gold-2026:8d154bb77f0473c0",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 15,
+          "section": "KEY POINTS:",
+          "distance": 0.22333306074142456,
+          "similarity": 0.7766669392585754,
+          "relevant": false,
+          "text_preview": "• The main environmental exposures leading to COPD are tobacco smoking and the inhalation of toxic particles and gases from household and outdoor air pollution, but other environmental and host factors (including abnormal lung development and accelerated lung aging) can also contribute.\n\nDiagnostic "
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.8314477205276489
+    },
+    {
+      "question": "What individualized exercise intensity should this COPD patient use with no assessment data?",
+      "category": "ambiguous_insufficient",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:a1f1b6e50da68fc2",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 86,
+          "section": "NON-PHARMACOLOGICAL TREATMENT OF COPD",
+          "distance": 0.2982252240180969,
+          "similarity": 0.7017747759819031,
+          "relevant": false,
+          "text_preview": "► Detailed history and physical examination including health behaviors ► Measurement of post-bronchodilator spirometry ► Assessment of (functional) exercise capacity ► Measurement of health status and impact of breathlessness and fatigue ► Assessment of inspiratory and expiratory muscle strength and"
+        },
+        {
+          "chunk_id": "gold-2026:6ab502316706ccbc",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 57,
+          "section": "ADDITIONAL INVESTIGATIONS",
+          "distance": 0.3108171224594116,
+          "similarity": 0.6891828775405884,
+          "relevant": false,
+          "text_preview": "Further, objectively measured exercise impairment, assessed by a reduction in self-paced walking distance(518,519) or during incremental exercise testing in a laboratory,(520) is a powerful indicator of health status impairment and predictor of prognosis.(521) Laboratory testing using cycle or tread"
+        },
+        {
+          "chunk_id": "gold-2026:802fa3b76ccbcc5a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 59,
+          "section": "ADDITIONAL INVESTIGATIONS",
+          "distance": 0.32662010192871094,
+          "similarity": 0.6733798980712891,
+          "relevant": false,
+          "text_preview": "Composite scores Several variables identify patients at increased risk for mortality including FEV1, exercise tolerance assessed by walking distance or peak oxygen consumption, weight loss, and reduction of arterial oxygenation. The BODE method gives a composite score that is a better predictor of s"
+        },
+        {
+          "chunk_id": "gold-2026:e4a706801450a32e",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 170,
+          "section": "PHARMACOLOGICAL THERAPY",
+          "distance": 0.32670658826828003,
+          "similarity": 0.67329341173172,
+          "relevant": false,
+          "text_preview": "tools used; quality-assurance methods) to replicate the study or adapt the interventions for clinical care. One RCT that evaluated the long-term effectiveness of a community-based physical activity coaching intervention in people with COPD exacerbation history showed no benefits in acute care use or"
+        },
+        {
+          "chunk_id": "nice-ng115:3348ec8c56ab8637",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 12,
+          "section": "Do not use a multidimensional index (such as BODE) to assess prognosis in",
+          "distance": 0.33607643842697144,
+          "similarity": 0.6639235615730286,
+          "relevant": false,
+          "text_preview": "Do not use a multidimensional index (such as BODE) to assess prognosis in\n\npeople with stable COPD. [2018] 1.1.25\n\nFrom diagnosis onwards, when discussing prognosis and treatment decisions\n\nwith people with stable COPD, think about the following factors that are individually associated with prognosi"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.7017747759819031
+    },
+    {
+      "question": "Does the guideline guarantee benefit from triple therapy for every COPD patient?",
+      "category": "ambiguous_insufficient",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "nice-ng115:78916b896e572c75",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 62,
+          "section": "Although the combination therapies recommended in this guideline are the most effective",
+          "distance": 0.2146705985069275,
+          "similarity": 0.7853294014930725,
+          "relevant": false,
+          "text_preview": "options, some people are currently using different therapies, such as LAMA or LABA monotherapy, and may have their symptoms under control with these. The committee did not want to make people change treatments unnecessarily, so they made a recommendation highlighting that people did not need to swit"
+        },
+        {
+          "chunk_id": "nice-ng115:307cd6cf89ead555",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 63,
+          "section": "The criteria for starting triple therapy are based on the inclusion criteria for the studies the",
+          "distance": 0.2340388298034668,
+          "similarity": 0.7659611701965332,
+          "relevant": false,
+          "text_preview": "• people who are having severe or frequent exacerbations, for whom the benefit of fewer exacerbations outweighs the increased risk of pneumonia\n\n• people with less severe symptoms, for whom it is less clear if triple therapy provides enough benefits to outweigh the risk of pneumonia.\n\nThe 3-month tr"
+        },
+        {
+          "chunk_id": "nice-ng115:a42473d2aa6e1d6a",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 63,
+          "section": "The committee did not make a recommendation in favour of single or multiple inhaler",
+          "distance": 0.3025016784667969,
+          "similarity": 0.6974983215332031,
+          "relevant": false,
+          "text_preview": "devices as the included evidence did not show a meaningful difference in clinical effectiveness between triple therapy compared to dual therapy based on the number of devices. From the economic evidence, using a single inhaler device was more cost effective, but the committee agreed that there were "
+        },
+        {
+          "chunk_id": "nice-ng115:7e685241e3cdff2d",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 61,
+          "section": "Most of the trials specifically excluded people with COPD and asthma, so there was no",
+          "distance": 0.3087771534919739,
+          "similarity": 0.6912228465080261,
+          "relevant": false,
+          "text_preview": "Chronic obstructive pulmonary disease in over 16s: diagnosis and management (NG115) © NICE 2026. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- conditions#notice-of-rights).\n\nPage 61 of 76 direct evidence for this group. The committee recommended LABA+ICS based "
+        },
+        {
+          "chunk_id": "nice-ng115:8157946955cc74a5",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 64,
+          "section": "How the recommendations might affect practice",
+          "distance": 0.30888015031814575,
+          "similarity": 0.6911198496818542,
+          "relevant": false,
+          "text_preview": "The recommendation on LAMA+LABA dual therapy is likely to increase the number of people with COPD who are having this treatment. The higher cost of dual therapy compared with monotherapy may result in a significant resource impact, but cost savings are also likely from a reduction in treatments need"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.7853294014930725
+    },
+    {
+      "question": "Can I stop all COPD medicines because symptoms improved?",
+      "category": "ambiguous_insufficient",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:31638a4348f57c4a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "KEY POINTS:",
+          "distance": 0.2993565797805786,
+          "similarity": 0.7006434202194214,
+          "relevant": false,
+          "text_preview": "• Following an exacerbation, the management of COPD and its comorbidities should be reviewed and appropriate measures for exacerbation prevention should be implemented (see Chapter 3).\n\nDEFINITION"
+        },
+        {
+          "chunk_id": "nice-ng115:cec952f18a77b40c",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 70,
+          "section": "Evidence showed that self-management plans improve quality of life and reduce hospital",
+          "distance": 0.3513903021812439,
+          "similarity": 0.6486096978187561,
+          "relevant": false,
+          "text_preview": "• cognitive behavioural components for people with frightening breathlessness, because there is some evidence that these reduce distress (although they do not help with the symptoms of breathlessness).\n\nThe list of topics to be covered in information about COPD is taken from the self-\n\nmanagement pl"
+        },
+        {
+          "chunk_id": "nice-ng115:54c3f8c240b902bd",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 64,
+          "section": "Oral prophylactic antibiotic therapy",
+          "distance": 0.3517612814903259,
+          "similarity": 0.6482387185096741,
+          "relevant": false,
+          "text_preview": "Recommendations 1.2.44 to 1.2.52 Chronic obstructive pulmonary disease in over 16s: diagnosis and management (NG115) © NICE 2026. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- conditions#notice-of-rights).\n\nPage 64 of 76\n\nWhy the committee made the recommendati"
+        },
+        {
+          "chunk_id": "gold-2026:f3d1de3e0b3fdb4d",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 54,
+          "section": "INITIAL ASSESSMENT",
+          "distance": 0.3526398539543152,
+          "similarity": 0.6473601460456848,
+          "relevant": false,
+          "text_preview": "Observational studies(490,491) have shown that even one moderate or severe exacerbation prior to initiating maintenance pharmacological therapy increases the risk of subsequent events; this risk is further increased if there are more frequent or severe events.(467,492-494) Consequently, Group E has "
+        },
+        {
+          "chunk_id": "nice-ng115:3f1dfb8b6cfde54d",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 57,
+          "section": "People with COPD commonly experience exacerbations, which have a negative impact on",
+          "distance": 0.3625255823135376,
+          "similarity": 0.6374744176864624,
+          "relevant": false,
+          "text_preview": "their quality of life and are linked to worse disease prognosis. Certain groups of people with COPD are at higher risk of exacerbations, and reducing the number of exacerbations they experience should improve quality of life for them and their families. However, subgroups of these people may benefit"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.7006434202194214
+    },
+    {
+      "question": "What is the recommended treatment for diabetes?",
+      "category": "out_of_scope",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:3a5b6d89d193c80a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 4,
+          "section": "BANGLADESH",
+          "distance": 0.5979222059249878,
+          "similarity": 0.4020777940750122,
+          "relevant": false,
+          "text_preview": "Dr Kazi S. Bennoor Dhaka, Bangladesh Prof Md Mostafizur Rahman Dhaka, Bangladesh BELGIUM Prof Wim Janssens Leuven, Belgium BULGARIA Dr Yavor Ivanov Pleven, Bulgaria CHINA Fu-Qiang Wen, MD, PhD Chengdu, China COLOMBIA Alejandro Casas, MD General Director of the Fundación Neumológica Colombiana CROATI"
+        },
+        {
+          "chunk_id": "gold-2026:97f8c80c49517a54",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 84,
+          "section": "NON-PHARMACOLOGICAL TREATMENT OF COPD",
+          "distance": 0.6145614385604858,
+          "similarity": 0.38543856143951416,
+          "relevant": false,
+          "text_preview": "Algorithms for the initiation and follow-up of non-pharmacological treatment Some relevant non-pharmacological measures based on the patient’s GOLD A, B, or E group AT DIAGNOSIS are summarized in Figure 3.15.\n\nRecommendations for FOLLOW-UP non-pharmacological treatments are based on a patient’s trea"
+        },
+        {
+          "chunk_id": "gold-2026:72937afbdbc1b7eb",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 4,
+          "section": "INDONESIA",
+          "distance": 0.6176956295967102,
+          "similarity": 0.3823043704032898,
+          "relevant": false,
+          "text_preview": "Prof Faisal Yunus Jakarta, Indonesia IRAN Dr Masjedi Mohammad Reza Tehran, Iran Mohammad Ashkan Moslehi, MD Shiraz, Iran IRELAND Sarah O'Beirne, MD PhD Dublin, Ireland Dr. Breda Cushen, MD PhD Beaumont Hospital Dublin, Ireland ISRAEL Zvi G. Fridlender, MD, MSc Jerusalem, Israel ITALY Prof. Antonio S"
+        },
+        {
+          "chunk_id": "gold-2026:b877300db62ca734",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 134,
+          "section": "METABOLIC DISEASE",
+          "distance": 0.6350314021110535,
+          "similarity": 0.36496859788894653,
+          "relevant": false,
+          "text_preview": "Diabetes mellitus Studies have shown that metabolic syndrome and manifest diabetes are frequent in patients with COPD.(468,1310) Type 2 DM is present in approximately 20% of patients with COPD, increasing morbidity and mortality, and complicating the management of both.(1311) Type 2 DM is associated"
+        },
+        {
+          "chunk_id": "gold-2026:9db3d5129a54188f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 7,
+          "section": "METHODOLOGY",
+          "distance": 0.6373538970947266,
+          "similarity": 0.36264610290527344,
+          "relevant": false,
+          "text_preview": "Committee. Only high-quality systematic reviews and meta-analyses that provide strong evidence for changing clinical practice are cited in the GOLD report with preference given to citing the original randomized controlled trial(s).\n\nRecommendations by the GOLD Committee for use of any medication are"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.4020777940750122
+    },
+    {
+      "question": "How should hypertension be managed in pregnancy?",
+      "category": "out_of_scope",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "nice-ng115:740ea0b1328d29bf",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 30,
+          "section": "Diagnosing pulmonary hypertension and cor pulmonale",
+          "distance": 0.7564384341239929,
+          "similarity": 0.24356156587600708,
+          "relevant": false,
+          "text_preview": "• peripheral oedema (swelling)\n\n• a raised venous pressure\n\n• a systolic parasternal heave\n\n• a loud pulmonary second heart sound. [2004] 1.2.77\n\nIt is recommended that the diagnosis of cor pulmonale is made clinically and that\n\nthis process should involve excluding other causes of peripheral oedema"
+        },
+        {
+          "chunk_id": "gold-2026:bb7302ba3346288d",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 87,
+          "section": "NON-PHARMACOLOGICAL TREATMENT OF COPD",
+          "distance": 0.7579891085624695,
+          "similarity": 0.24201089143753052,
+          "relevant": false,
+          "text_preview": "► PaO2 at or below 55 mmHg (7.3 kPa) or SaO2 at or below 88%, with or without hypercapnia confirmed twice over a three-week period; or ► PaO2 between 55 mmHg (7.3 kPa) and 60 mmHg (8.0 kPa), or SaO2 of 88%, if there is evidence of pulmonary hypertension, peripheral edema suggesting congestive cardia"
+        },
+        {
+          "chunk_id": "nice-ng115:58da91b8263e8373",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 68,
+          "section": "The committee agreed that there was not enough evidence to recommend any of the",
+          "distance": 0.7648314237594604,
+          "similarity": 0.23516857624053955,
+          "relevant": false,
+          "text_preview": "reviewed treatments for pulmonary hypertension in people with COPD. Although some of the treatments improved blood pressure readings, there was no evidence that they improved quality of life and the clinical trials only involved small numbers of people.\n\nThere is a shortage of good evidence in this "
+        },
+        {
+          "chunk_id": "nice-ng115:af9349ce3643c066",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 67,
+          "section": "Why the committee made the recommendations",
+          "distance": 0.7749655246734619,
+          "similarity": 0.22503447532653809,
+          "relevant": false,
+          "text_preview": "Why the committee made the recommendations\n\nThe evidence for people with mild or no hypoxaemia showed that neither ambulatory\n\noxygen nor short-burst oxygen provide a clinically meaningful improvement in breathlessness.\n\nHow the recommendations might affect practice\n\nReducing the use of ambulatory a"
+        },
+        {
+          "chunk_id": "gold-2026:851fc83105809c50",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 126,
+          "section": "CARDIOVASCULAR DISEASES",
+          "distance": 0.7826147079467773,
+          "similarity": 0.21738529205322266,
+          "relevant": false,
+          "text_preview": "Cardiovascular diseases are very frequent in patients with COPD that is caused by tobacco smoking, a shared risk factor for both organ systems. Several morbidities are of special importance and should be considered in all patients with COPD, namely: systemic arterial hypertension, heart failure, cor"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.24356156587600708
+    },
+    {
+      "question": "What chemotherapy is recommended for lung cancer?",
+      "category": "out_of_scope",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:36abe32868663366",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 130,
+          "section": "RESPIRATORY DISEASES",
+          "distance": 0.508752167224884,
+          "similarity": 0.49124783277511597,
+          "relevant": false,
+          "text_preview": "Lung cancer Lung cancer is the leading cause of death from malignant disease worldwide, with more deaths from lung cancer than from colon, breast and prostate cancer combined, causing an estimated 1.6 million deaths worldwide each year.(1196) Unfortunately, the great majority of lung cancers are dia"
+        },
+        {
+          "chunk_id": "nice-ng115:7614c1967d01b8f1",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 32,
+          "section": "Offer pneumococcal vaccination and an annual flu vaccination to all people with",
+          "distance": 0.5400172472000122,
+          "similarity": 0.4599827527999878,
+          "relevant": false,
+          "text_preview": "Offer pneumococcal vaccination and an annual flu vaccination to all people with\n\nCOPD, as recommended by the Chief Medical Officer. [2004] 1.2.88\n\nOseltamivir and zanamivir are recommended as options for preventing and\n\ntreating flu in some people in at-risk groups. For full details, see NICE's Chro"
+        },
+        {
+          "chunk_id": "gold-2026:859f401187a1fc21",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 95,
+          "section": "MORTALITY",
+          "distance": 0.546745777130127,
+          "similarity": 0.45325422286987305,
+          "relevant": false,
+          "text_preview": "Organizations such as the National Hospice and Palliative Care Organization(831) provide guidance for selecting patients with non-cancer diseases like COPD for access to hospice services (for example, disabling dyspnea at rest that is poorly responsive to bronchodilators and progression of advanced "
+        },
+        {
+          "chunk_id": "gold-2026:40614113ebecf0e2",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 96,
+          "section": "MORTALITY",
+          "distance": 0.553431510925293,
+          "similarity": 0.44656848907470703,
+          "relevant": false,
+          "text_preview": "Lung structural related therapies include airway and emphysematous predominant treatments. Phenotyping patients with clinical, physiological, and imaging tests is critical to select appropriate candidates and in assessing the benefits, timing, and type of intervention to be performed. Multidisciplin"
+        },
+        {
+          "chunk_id": "gold-2026:47c14ae2511d81fb",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 166,
+          "section": "PHARMACOTHERAPY",
+          "distance": 0.563796877861023,
+          "similarity": 0.43620312213897705,
+          "relevant": false,
+          "text_preview": "Studies using sensitive parameters of emphysema progression determined by CT scans have provided evidence for an effect on preserving lung tissue compared to placebo.(1646-1648) Based on the last trial the indications for therapy have been extended to include \"those patients with evidence of progres"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.49124783277511597
+    },
+    {
+      "question": "How do I treat acute appendicitis?",
+      "category": "out_of_scope",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:632d6923fce07242",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 115,
+          "section": "PHARMACOLOGICAL TREATMENT",
+          "distance": 0.6356871724128723,
+          "similarity": 0.3643128275871277,
+          "relevant": false,
+          "text_preview": "► Have these at least two of these symptoms: increase in dyspnea, fever, sputum volume, and sputum purulence, if increased purulence of sputum is one of these symptoms ► Prior positive sputum culture during prior exacerbation ► Require mechanical ventilation (invasive or noninvasive).(926,964) The c"
+        },
+        {
+          "chunk_id": "gold-2026:d8c3bda12cb051b0",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 115,
+          "section": "PHARMACOLOGICAL TREATMENT",
+          "distance": 0.6944419741630554,
+          "similarity": 0.3055580258369446,
+          "relevant": false,
+          "text_preview": "Antibiotics Although the infectious agents in COPD exacerbations can be viral or bacterial,(964,1037) the use of antibiotics in exacerbations remains controversial. A Cochrane review concluded that there is a strong beneficial effect of antibiotic treatment during an exacerbation requiring intensive"
+        },
+        {
+          "chunk_id": "gold-2026:3735edf4cceee91b",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 103,
+          "section": "KEY POINTS:",
+          "distance": 0.7140638828277588,
+          "similarity": 0.2859361171722412,
+          "relevant": false,
+          "text_preview": "• Exacerbation severity is classified as mild, moderate or severe based on the clinical characteristics of the patient, according to the Rome proposal.\n\n• Pharmacological therapy should be started as soon as possible to prevent both complications and subsequent events. It includes:\n\no SABAs, with or"
+        },
+        {
+          "chunk_id": "gold-2026:3a5b6d89d193c80a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 4,
+          "section": "BANGLADESH",
+          "distance": 0.7186944484710693,
+          "similarity": 0.28130555152893066,
+          "relevant": false,
+          "text_preview": "Dr Kazi S. Bennoor Dhaka, Bangladesh Prof Md Mostafizur Rahman Dhaka, Bangladesh BELGIUM Prof Wim Janssens Leuven, Belgium BULGARIA Dr Yavor Ivanov Pleven, Bulgaria CHINA Fu-Qiang Wen, MD, PhD Chengdu, China COLOMBIA Alejandro Casas, MD General Director of the Fundación Neumológica Colombiana CROATI"
+        },
+        {
+          "chunk_id": "gold-2026:1b40961fb32bbc95",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 109,
+          "section": "DEFINITION",
+          "distance": 0.7238083481788635,
+          "similarity": 0.2761916518211365,
+          "relevant": false,
+          "text_preview": "Decision-making about the management setting When deciding on the setting in which a patient with an exacerbation should be managed, it is important to determine not only the severity of the exacerbation per se, as detailed in the Rome proposal, if possible, but also assess how compromised the patie"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.3643128275871277
+    },
+    {
+      "question": "What vaccine schedule is recommended for infants?",
+      "category": "out_of_scope",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:8dfa26f6a5dab08d",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 68,
+          "section": "RISK REDUCTION, LIFESTYLE, AND PATIENT EDUCATION",
+          "distance": 0.5763719081878662,
+          "similarity": 0.4236280918121338,
+          "relevant": false,
+          "text_preview": "Pneumococcal vaccines Pneumococcal vaccinations, pneumococcal conjugated vaccine (PCV21, PCV20, PCV15 or PCV13) and pneumococcal polysaccharide vaccine (PPSV23), are indicated for all adults aged ≥ 50 years, and adults aged 19-49 years with an underlying medical condition such as chronic lung diseas"
+        },
+        {
+          "chunk_id": "gold-2026:fbd84de336c1426c",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 5,
+          "section": "GOLD 2026 REPORT HIGHLIGHTS",
+          "distance": 0.590081512928009,
+          "similarity": 0.40991848707199097,
+          "relevant": false,
+          "text_preview": "In Chapter 2 Screening and Case-finding has been updated and two new figures have been added (Figures 2.8 and 2.9) iii.\n\nVaccination Recommendations for people with COPD have been updated with the latest information on RSV and influenza vaccination.\n\niv.\n\nThe criteria defining GOLD A, B and E catego"
+        },
+        {
+          "chunk_id": "gold-2026:9fcc24f02a34fcac",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 68,
+          "section": "RISK REDUCTION, LIFESTYLE, AND PATIENT EDUCATION",
+          "distance": 0.6069095134735107,
+          "similarity": 0.39309048652648926,
+          "relevant": false,
+          "text_preview": "There are significant differences in the carbon footprint of inhaler devices reflecting whether they contain a propellant gas, what they are made from, how they are manufactured and transported, and whether they can be reused or recycled. Selection and correct use and disposal of inhalers by patient"
+        },
+        {
+          "chunk_id": "gold-2026:23da08ac75d35a7c",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 68,
+          "section": "RISK REDUCTION, LIFESTYLE, AND PATIENT EDUCATION",
+          "distance": 0.6115998029708862,
+          "similarity": 0.38840019702911377,
+          "relevant": false,
+          "text_preview": "Influenza vaccine Routine annual influenza vaccination is recommended for all people aged ≥ 6 months who do not have contraindications, and should be prioritized in individuals with chronic conditions like COPD.(632) Influenza vaccination can reduce serious illness (such as lower respiratory tract i"
+        },
+        {
+          "chunk_id": "gold-2026:cae1d5f013daff45",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 61,
+          "section": "KEY POINTS:",
+          "distance": 0.618435263633728,
+          "similarity": 0.381564736366272,
+          "relevant": false,
+          "text_preview": "• The immunization committees recommend Tdap vaccination (dTaP/dTPa; pertussis, tetanus and diptheria) for people with COPD who were not vaccinated in adolescence; and routine use of shingles vaccine.\n\nPharmacological maintenance treatment of COPD\n\n• Initial pharmacological treatment of COPD should "
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.4236280918121338
+    },
+    {
+      "question": "What is the dose of insulin for type 1 diabetes?",
+      "category": "out_of_scope",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:b877300db62ca734",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 134,
+          "section": "METABOLIC DISEASE",
+          "distance": 0.672031044960022,
+          "similarity": 0.327968955039978,
+          "relevant": false,
+          "text_preview": "Diabetes mellitus Studies have shown that metabolic syndrome and manifest diabetes are frequent in patients with COPD.(468,1310) Type 2 DM is present in approximately 20% of patients with COPD, increasing morbidity and mortality, and complicating the management of both.(1311) Type 2 DM is associated"
+        },
+        {
+          "chunk_id": "gold-2026:3a5b6d89d193c80a",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 4,
+          "section": "BANGLADESH",
+          "distance": 0.7294964790344238,
+          "similarity": 0.27050352096557617,
+          "relevant": false,
+          "text_preview": "Dr Kazi S. Bennoor Dhaka, Bangladesh Prof Md Mostafizur Rahman Dhaka, Bangladesh BELGIUM Prof Wim Janssens Leuven, Belgium BULGARIA Dr Yavor Ivanov Pleven, Bulgaria CHINA Fu-Qiang Wen, MD, PhD Chengdu, China COLOMBIA Alejandro Casas, MD General Director of the Fundación Neumológica Colombiana CROATI"
+        },
+        {
+          "chunk_id": "gold-2026:97f8c80c49517a54",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 84,
+          "section": "NON-PHARMACOLOGICAL TREATMENT OF COPD",
+          "distance": 0.7358927130699158,
+          "similarity": 0.26410728693008423,
+          "relevant": false,
+          "text_preview": "Algorithms for the initiation and follow-up of non-pharmacological treatment Some relevant non-pharmacological measures based on the patient’s GOLD A, B, or E group AT DIAGNOSIS are summarized in Figure 3.15.\n\nRecommendations for FOLLOW-UP non-pharmacological treatments are based on a patient’s trea"
+        },
+        {
+          "chunk_id": "gold-2026:9db3d5129a54188f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 7,
+          "section": "METHODOLOGY",
+          "distance": 0.7500477433204651,
+          "similarity": 0.2499522566795349,
+          "relevant": false,
+          "text_preview": "Committee. Only high-quality systematic reviews and meta-analyses that provide strong evidence for changing clinical practice are cited in the GOLD report with preference given to citing the original randomized controlled trial(s).\n\nRecommendations by the GOLD Committee for use of any medication are"
+        },
+        {
+          "chunk_id": "gold-2026:7ecf925019f53f2c",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 136,
+          "section": "DISEASES WITH MULTIPLE ORGANS LOSS OF TISSUE",
+          "distance": 0.7566338777542114,
+          "similarity": 0.24336612224578857,
+          "relevant": false,
+          "text_preview": "COPD should be treated as usual despite the presence of osteoporosis. Given the complicated landscape of anabolic and antiresorptive agents for the treatment of osteoporosis, these patients should be managed by providers familiar with the treatments or referred to an osteoporosis specialist.(1343) R"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.327968955039978
+    },
+    {
+      "question": "How should migraine be prevented?",
+      "category": "out_of_scope",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:24d576891d774631",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 4,
+          "section": "KAZAKHSTAN",
+          "distance": 0.7779573202133179,
+          "similarity": 0.22204267978668213,
+          "relevant": false,
+          "text_preview": "Tair Nurpeissov KOREA Yeon-Mok Oh, MD Seoul, South Korea KUWAIT Professor Mousa Khadadah Kuwait University\n\nKYRGYZSTAN\n\nTalant Sooronbaev, MD Bishkek, Kyrgyzstan LEBANON Mirna Waked, MD, FCCP Balamand University, Lebanon\n\nLITHUANIA\n\nProf Kestutis Malakauskas, MD, PhD Kaunas, Lithuania MALTA Prof Jos"
+        },
+        {
+          "chunk_id": "gold-2026:60e4a7bd136fa99e",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 153,
+          "section": "PHARMACOTHERAPY",
+          "distance": 0.8151108622550964,
+          "similarity": 0.18488913774490356,
+          "relevant": false,
+          "text_preview": "Nicotine replacement products Nicotine replacement therapy (nicotine gum, inhaler, nasal spray, transdermal patch, sublingual tablet, or lozenge) reliably increases long-term smoking abstinence rates(571,573,575,1439,1440) and is significantly more effective than placebo.\n\nNicotine replacement thera"
+        },
+        {
+          "chunk_id": "gold-2026:743552814e292933",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 53,
+          "section": "INITIAL ASSESSMENT",
+          "distance": 0.8157111406326294,
+          "similarity": 0.1842888593673706,
+          "relevant": false,
+          "text_preview": "1) The current GOLD recommendations emphasize the importance of an appropriate differential diagnosis of exacerbations from other conditions that may mimic/aggravate them (e.g., heart failure).(487) Yet, if they do exist, they need to be treated appropriately.\n\n2) It may be advisable to measure rout"
+        },
+        {
+          "chunk_id": "nice-ng115:6e55e803428dc5fe",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 65,
+          "section": "The committee recommended azithromycin because this antibiotic had the most evidence",
+          "distance": 0.8221087455749512,
+          "similarity": 0.17789125442504883,
+          "relevant": false,
+          "text_preview": "The committee recommended azithromycin because this antibiotic had the most evidence\n\nof effectiveness (based on the numbers of trials and study participants). The recommended dosage is taken from the trials the committee reviewed.\n\nPeople taking prophylactic azithromycin may also keep antibiotics a"
+        },
+        {
+          "chunk_id": "gold-2026:72937afbdbc1b7eb",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 4,
+          "section": "INDONESIA",
+          "distance": 0.8272305727005005,
+          "similarity": 0.1727694272994995,
+          "relevant": false,
+          "text_preview": "Prof Faisal Yunus Jakarta, Indonesia IRAN Dr Masjedi Mohammad Reza Tehran, Iran Mohammad Ashkan Moslehi, MD Shiraz, Iran IRELAND Sarah O'Beirne, MD PhD Dublin, Ireland Dr. Breda Cushen, MD PhD Beaumont Hospital Dublin, Ireland ISRAEL Zvi G. Fridlender, MD, MSc Jerusalem, Israel ITALY Prof. Antonio S"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.22204267978668213
+    },
+    {
+      "question": "What are the diagnostic criteria for rheumatoid arthritis?",
+      "category": "out_of_scope",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:3b81ea8bef7cb0ef",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 41,
+          "section": "SPIROMETRY",
+          "distance": 0.3155023455619812,
+          "similarity": 0.6844976544380188,
+          "relevant": false,
+          "text_preview": "Assessment of the presence or absence of airflow obstruction based on a single measurement of the post- bronchodilator FEV1/FVC ratio should be confirmed by repeat spirometry on a separate occasion if the value is between 0.6 and 0.8, as in some cases the ratio may change as a result of biological v"
+        },
+        {
+          "chunk_id": "gold-2026:c5406cb5dffccaa0",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 48,
+          "section": "INITIAL ASSESSMENT",
+          "distance": 0.3604784607887268,
+          "similarity": 0.6395215392112732,
+          "relevant": false,
+          "text_preview": "► Severity of airflow obstruction ► Nature and magnitude of current symptoms ► Previous history of moderate and severe exacerbations ► Blood eosinophil count ► Presence and type of other diseases (multimorbidity) Severity of airflow obstruction In the presence of FEV1/FVC ratio < 0.7 the assessment "
+        },
+        {
+          "chunk_id": "gold-2026:c5e6266a13e7f6d4",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 38,
+          "section": "SPIROMETRY",
+          "distance": 0.37168383598327637,
+          "similarity": 0.6283161640167236,
+          "relevant": false,
+          "text_preview": "Figure 2.5A shows a normal spirometry tracing and Figure 2.5B shows a tracing obtained in a person with COPD.\n\nPatients with COPD typically show a decrease in both FEV1 (due to airflow obstruction) and (to a lesser degree) FVC (due to gas trapping).\n\nPre- or post-bronchodilator spirometry to confirm"
+        },
+        {
+          "chunk_id": "nice-ng115:4d20c027017dabc3",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 13,
+          "section": "For people with mild airflow obstruction, only diagnose COPD if they have one or",
+          "distance": 0.38223499059677124,
+          "similarity": 0.6177650094032288,
+          "relevant": false,
+          "text_preview": "For people with mild airflow obstruction, only diagnose COPD if they have one or\n\nmore of the symptoms in the recommendation on symptoms. [2010] Table 4 Gradation of severity of airflow obstruction Post- broncho- dilator FEV1/ FVC FEV1 % predicted\n\nNICE guideline\n\nCG12 (2004) severity of airflow obs"
+        },
+        {
+          "chunk_id": "gold-2026:aa1aae708bc15b81",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 40,
+          "section": "SPIROMETRY",
+          "distance": 0.38492047786712646,
+          "similarity": 0.6150795221328735,
+          "relevant": false,
+          "text_preview": "Spirometric criteria to define airflow obstruction The spirometric criterion for airflow obstruction selected by GOLD for the diagnosis of COPD remains a post- bronchodilator ratio of FEV1/FVC < 0.7. This criterion is simple and independent of reference values because it relates to variables measure"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.6844976544380188
+    },
+    {
+      "question": "How should chronic kidney disease be staged?",
+      "category": "out_of_scope",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:7ecf925019f53f2c",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 136,
+          "section": "DISEASES WITH MULTIPLE ORGANS LOSS OF TISSUE",
+          "distance": 0.601355791091919,
+          "similarity": 0.39864420890808105,
+          "relevant": false,
+          "text_preview": "COPD should be treated as usual despite the presence of osteoporosis. Given the complicated landscape of anabolic and antiresorptive agents for the treatment of osteoporosis, these patients should be managed by providers familiar with the treatments or referred to an osteoporosis specialist.(1343) R"
+        },
+        {
+          "chunk_id": "gold-2026:4aa97be1e6ff785f",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 136,
+          "section": "DISEASES WITH MULTIPLE ORGANS LOSS OF TISSUE",
+          "distance": 0.605305552482605,
+          "similarity": 0.394694447517395,
+          "relevant": false,
+          "text_preview": "Clinically, chest CT scans can help identify individuals with low bone mineral density and muscle mass who should undergo more detailed assessment. Dual energy X-ray absorptiometry scanning can establish bone mineral density with excellent precision.\n\nCOPD should be treated as usual despite the pres"
+        },
+        {
+          "chunk_id": "gold-2026:72937afbdbc1b7eb",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 4,
+          "section": "INDONESIA",
+          "distance": 0.6119264364242554,
+          "similarity": 0.38807356357574463,
+          "relevant": false,
+          "text_preview": "Prof Faisal Yunus Jakarta, Indonesia IRAN Dr Masjedi Mohammad Reza Tehran, Iran Mohammad Ashkan Moslehi, MD Shiraz, Iran IRELAND Sarah O'Beirne, MD PhD Dublin, Ireland Dr. Breda Cushen, MD PhD Beaumont Hospital Dublin, Ireland ISRAEL Zvi G. Fridlender, MD, MSc Jerusalem, Israel ITALY Prof. Antonio S"
+        },
+        {
+          "chunk_id": "nice-ng115:8480242f0462c2cc",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 13,
+          "section": "Very severe",
+          "distance": 0.62157142162323,
+          "similarity": 0.37842857837677,
+          "relevant": false,
+          "text_preview": "GOLD guidance: Global Initiative for Chronic Obstructive Lung Disease (GOLD; 2008) Chronic obstructive pulmonary disease in over 16s: diagnosis and management (NG115) © NICE 2026. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- conditions#notice-of-rights).\n\nPage"
+        },
+        {
+          "chunk_id": "gold-2026:95b7e713affe279b",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 1,
+          "section": "Unknown",
+          "distance": 0.6624680161476135,
+          "similarity": 0.3375319838523865,
+          "relevant": false,
+          "text_preview": "2026 REPORT Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease Global Initiative for Chronic Obstructive Lung Disease Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease\n\nGLOBAL INITIATIVE FOR\n\nCHR"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.39864420890808105
+    },
+    {
+      "question": "What is the recommended screening interval for colon cancer?",
+      "category": "out_of_scope",
+      "answerable": false,
+      "expected_document": null,
+      "expected_terms": [],
+      "top_results": [
+        {
+          "chunk_id": "gold-2026:0f04c5e1ed6cdda5",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 131,
+          "section": "RESPIRATORY DISEASES",
+          "distance": 0.5846492052078247,
+          "similarity": 0.4153507947921753,
+          "relevant": false,
+          "text_preview": "Several studies have suggested that the yield of CT screening would improve if additional variables such as age, smoking history, BMI, presence of airflow obstruction and or emphysema and family history of lung cancer were added to the current screening criteria.(399,1219) The implementation of a sc"
+        },
+        {
+          "chunk_id": "gold-2026:1898105c98a48950",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 47,
+          "section": "SCREENING AND CASE-FINDING",
+          "distance": 0.6185302734375,
+          "similarity": 0.3814697265625,
+          "relevant": false,
+          "text_preview": "Opportunistic case-finding for COPD in targeted populations Leveraging lung cancer imaging for COPD case-finding Annual LDCT imaging of the chest is recommended by the USPSTF to diagnose lung cancer earlier among individuals aged 50 to 80 years with a ≥ 20 pack-year smoking history. Lung cancer and "
+        },
+        {
+          "chunk_id": "gold-2026:2563cc8a15bd46ce",
+          "document": "GOLD 2026 Global Strategy Report",
+          "document_id": "gold-2026",
+          "page": 47,
+          "section": "SCREENING AND CASE-FINDING",
+          "distance": 0.6243686676025391,
+          "similarity": 0.37563133239746094,
+          "relevant": false,
+          "text_preview": "Studies that have evaluated individuals for COPD symptoms and performed spirometry at lung cancer screening have reported airflow obstruction in 34-57% of individuals, emphysema in 68-73% and no prior diagnosis of COPD in 67%.(398,401,402) Male sex, younger age, lower smoking duration and being asym"
+        },
+        {
+          "chunk_id": "nice-ng115:39b9ec786fe83f5d",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 60,
+          "section": "The committee recommended against using multidimensional indices, such as BODE,",
+          "distance": 0.6447437405586243,
+          "similarity": 0.35525625944137573,
+          "relevant": false,
+          "text_preview": "• unable to classify people reliably into high- and low-risk groups better than FEV1 alone or\n\n• no better at predicting outcomes than FEV1 alone or\n\n• time-consuming and consisted of components that would not be routinely available in primary care.\n\nHowever, the committee recognised the need for an"
+        },
+        {
+          "chunk_id": "nice-ng115:2ffae3e7f95fb430",
+          "document": "NICE NG115: Chronic obstructive pulmonary disease in over 16s: diagnosis and management",
+          "document_id": "nice-ng115",
+          "page": 8,
+          "section": "If the person is a current smoker, their spirometry results are normal and they",
+          "distance": 0.6447524428367615,
+          "similarity": 0.3552475571632385,
+          "relevant": false,
+          "text_preview": "• warn them that they are at higher risk of lung disease\n\n• advise them to return if they develop respiratory symptoms\n\n• be aware that the presence of emphysema on a CT scan is an independent risk factor for lung cancer. [2018] 1.1.14\n\nIf the person is not a current smoker, their spirometry is norm"
+        }
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "hit": 0.0,
+      "best_similarity": 0.4153507947921753
+    }
+  ]
+}
