@@ -14,13 +14,15 @@ try:
     from fastapi import FastAPI, HTTPException, Query
     from fastapi.middleware.cors import CORSMiddleware
     from fastapi.responses import JSONResponse
-    from pydantic import BaseModel
+    from pydantic import BaseModel, Field
 except ImportError:
     FastAPI = None  # type: ignore
     HTTPException = None  # type: ignore
+    Query = None  # type: ignore
     CORSMiddleware = None  # type: ignore
     JSONResponse = None  # type: ignore
     BaseModel = None  # type: ignore
+    Field = None  # type: ignore
 
 from backend.models import EvidenceResult
 from backend.pipeline import ClinicalRagPipeline
@@ -90,7 +92,7 @@ class QueryRequest(BaseModel):
     """Query request model."""
 
     question: str
-    k: int = Query(5, ge=1, le=20)
+    k: int = Field(default=5, ge=1, le=20)
     show_evidence: bool = False
 
 
